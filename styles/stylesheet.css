@@ -1,0 +1,23 @@
+ol {
+    list-style: disc;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
+}
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+}
+.box {
+    background-color: blue;
+}
