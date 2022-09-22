@@ -17,6 +17,9 @@ google fonts API
 [Design Principles](https://byui.instructure.com/courses/207530/pages/w02-activity-design-principles?module_item_id=26511610)
 [Media Queries](https://byui.instructure.com/courses/207530/modules/items/26511624)
 
+3 Design principles [document](https://byui.instructure.com/courses/207530/assignments/9558461?module_item_id=26511712)
+    
+
 
 Week 3
 
