@@ -19,7 +19,10 @@ google fonts API
 
 3 Design principles [document](https://byui.instructure.com/courses/207530/assignments/9558461?module_item_id=26511712)
     
-
+[CSS images in div](https://code-paper.com/css/examples-how-to-keep-image-inside-a-div-container)
+this website helped me learn and understand the fix i needed
+for me to keep my images in the div on the main website. the 
+only difference was that i declaired my image sizes in HTML
 
 Week 3
 
