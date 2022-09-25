@@ -24,6 +24,10 @@ this website helped me learn and understand the fix i needed
 for me to keep my images in the div on the main website. the 
 only difference was that i declaired my image sizes in HTML
 
+[how to create two column layout](https://www.w3schools.com/howto/howto_css_two_columns.asp)
+this is a quick reference for making two columns 
+
+
 Week 3
 
 Week 4
