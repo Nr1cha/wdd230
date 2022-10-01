@@ -29,6 +29,8 @@ this is a quick reference for making two columns
 
 
 Week 3
+[icon for commerce site](https://www.flaticon.com/free-icon/salt-lake-city_5352469?term=utah&page=1&position=3&page=1&position=3&related_id=5352469&origin=style)
+<a href="https://www.flaticon.com/free-icons/salt-lake-city" title="salt-lake-city icons">Salt-lake-city icons created by surang - Flaticon</a>
 
 Week 4
 
