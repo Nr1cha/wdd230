@@ -33,9 +33,6 @@ Week 3
 <a href="https://www.flaticon.com/free-icons/salt-lake-city" title="salt-lake-city icons">Salt-lake-city icons created by surang - Flaticon</a>
 
 Week 4
-test
-<!-- this is text -->
-test12
 
 Week 5
 
