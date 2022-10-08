@@ -20,27 +20,33 @@
 </head>
 
 <body>
-    <h1>Kaysville City Chamber of Commerce</h1>
     <!-- header section -->
     <header>
-        <div class="currentDate"><span id="yearNow"></span> </div>
+        <h1>Kaysville City Chamber of Commerce</h1>
         <img src="images/salt-lake-city.webp" alt="image of a state building"> <!-- this is the placeholder logo-->
 
         <!-- icons -->
         <ul class="SocialStuff">
-            <li><a href="https://www.facebook.com/"><img src="images/facebook.png" height="46" width="46" alt="link to facebook website"></a></li>
-            <li><a href="https://www.linkedin.com/"><img src="images/linkedin_icon.webp" height="46" width="46" alt="link to linkedin website"></a></li>
+            <li><a href="https://www.facebook.com/"><img src="images/facebook.png" height="46" width="46"
+                        alt="link to facebook website"></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="images/linkedin_icon.webp" height="46" width="46"
+                        alt="link to linkedin website"></a></li>
         </ul>
+
+        <!-- navigation bar -->
         <ul>
-            <nav>
-                <a href="">Menu</a>
-                <a href="">Home</a>
-                <a href="">Discover</a>
-                <a href="">Directory</a>
-                <a href="">Join</a>
-                <a href="">Contact</a>
-                
+            <nav class="navbar main-navigation">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul class="primaryNav">
+                    <li><a class="hamburger" href="#">Menu</a></li>
+                    <li><a class="active" href="">Home</a></li>
+                    <li><a href="">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li><a href="">Join</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
             </nav>
+            <div class="currentDate"><span id="yearNow"></span> </div>
         </ul>
     </header>
     <!-- main section -->
