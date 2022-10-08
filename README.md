@@ -33,7 +33,11 @@ Week 3
 <a href="https://www.flaticon.com/free-icons/salt-lake-city" title="salt-lake-city icons">Salt-lake-city icons created by surang - Flaticon</a>
 
 Week 4
+icon authors
+linkedin <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Hight Quality Icons - Flaticon</a>
 
+facebook icon
+<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Hight Quality Icons - Flaticon</a>
 Week 5
 
 Week 6
