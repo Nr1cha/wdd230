@@ -7,7 +7,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(
 // const datefieldUK = document.querySelector("#yearNow"); 
 
 document.querySelector("#yearNow").textContent = fulldateUK;
-document.querySelector('#year1').textContent = currentYear;
-document.querySelector('#year2').textContent = lastModified;
+document.querySelector('#year').textContent = currentYear;
+document.querySelector('#modded').textContent = lastModified;
 
 
