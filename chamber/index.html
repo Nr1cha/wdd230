@@ -21,23 +21,11 @@
 
 <body>
     <!-- header section -->
-    <header>
-        <h1>Kaysville City Chamber of Commerce</h1>
-
-        <!-- navigation bar -->
-        <nav class="navbar main-navigation">
-            <img src="images/salt-lake-city.webp" alt="image of a state building">
+    <header class="mainHeader">
+        <ul class="headItems">
             <!-- this is the placeholder logo-->
-
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul class="primaryNav">
-                <li class="nav-item"><a class="hamburger" href="#">Menu</a></li>
-                <li class="nav-item"><a class="active" href="">Home</a></li>
-                <li class="nav-item"><a href="">Discover</a></li>
-                <li class="nav-item"><a href="">Directory</a></li>
-                <li class="nav-item"><a href="">Join</a></li>
-                <li class="nav-item"><a href="">Contact</a></li>
-            </ul>
+            <img src="images/salt-lake-city.webp" alt="image of a state building">
+            <h1>Kaysville City Chamber of Commerce</h1>
             <div class="socialStuff">
                 <!-- icons -->
                 <a href="https://www.facebook.com/"><img src="images/facebook.png" height="46" width="46"
@@ -45,6 +33,20 @@
                 <a href="https://www.linkedin.com/"><img src="images/linkedin_icon.webp" height="46" width="46"
                         alt="link to linkedin website"></a>
             </div>
+        </ul>
+        <!-- navigation bar -->
+        <nav class="navbar main-navigation">
+
+            <ul class="primaryNav">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <li class="nav-item"><a class="hamburger" href="#">Menu</a></li>
+                <li class="nav-item"><a class="active" href="">Home</a></li>
+                <li class="nav-item"><a href="">Discover</a></li>
+                <li class="nav-item"><a href="">Directory</a></li>
+                <li class="nav-item"><a href="">Join</a></li>
+                <li class="nav-item"><a href="">Contact</a></li>
+            </ul>
+
         </nav>
         <div class="currentDate"><span id="yearNow"></span> </div>
     </header>
