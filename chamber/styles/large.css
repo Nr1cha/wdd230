@@ -1,10 +1,77 @@
 /* large - desktop */
 @media screen and (min-width: 1441px) {
-    body {
-      max-width: 95%;
-      background-color: darkolivegreen;
-    }
-    .maincontent {
-        padding: 2rem;
-    }
+  body {
+    max-width: 95%;
   }
+
+  .maincontent {
+    padding: 2rem;
+  }
+
+  #primaryNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+  }
+
+  body>header>nav>ul>button {
+    display: none;
+  }
+
+  main {
+    margin-right: 10px;
+    margin-left: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .event {
+    grid-area: 1/1/2/2;
+  }
+
+  .hero {
+    height: auto;
+    grid-area: 1/2/3/4;
+  }
+
+  .spotlight {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-area: 1/4/4/5;
+  }
+
+  .spot1 {
+    grid-area: 1/1/2/2;
+    height: auto;
+  }
+
+  .spot2 {
+    grid-area: 2/1/3/2;
+    height: auto;
+  }
+
+  .spot3 {
+    display: inline-block;
+    height: auto;
+    grid-area: 3/1/4/2;
+  }
+
+  .weather {
+    grid-area: 2/1/3/2;
+  }
+
+  .join {
+    grid-area: 3/1/4/2;
+  }
+
+  .news {
+    grid-area: 3/2/4/4;
+  }
+}
