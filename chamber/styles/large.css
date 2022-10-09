@@ -1,0 +1,10 @@
+/* large - desktop */
+@media screen and (min-width: 1441px) {
+    body {
+      max-width: 95%;
+      background-color: darkolivegreen;
+    }
+    .maincontent {
+        padding: 2rem;
+    }
+  }

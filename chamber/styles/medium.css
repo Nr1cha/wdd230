@@ -1,0 +1,13 @@
+/* medium - tablet */
+@media screen and (min-width: 769px) {
+    body {
+      max-width: 95%;
+      background-color: darkgreen;
+    }
+    .maincontent {
+      padding: 2rem;
+    }
+    nav {
+      flex-direction: column;  
+    }
+  }

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&family=Raleway&display=swap');
 
 body {
-  max-width: 80%;
+  max-width: 95%;
   margin: auto;
   padding: 1.5rem;
   font-family: 'DM Sans', sans-serif;
@@ -71,7 +71,7 @@ footer {
 }
 
 /* small - mobile */
-/* @media screen and (max-width: 470px) {
+/* @media screen and (min-width: 470px) {
   nav {
     flex-direction: column;
   }
@@ -83,22 +83,6 @@ footer {
   }
 } */
 
-/* medium - tablet */
-/* @media screen and (max-width: 769px) {
-    body {
-      max-width: 95%;
-    }
-    .maincontent {
-      padding: 2rem;
-    }
-  } */
 
-/* large - desktop */
-/* @media screen and (min-width: 1441px) {
-    body {
-      max-width: 80%;
-    }
-    .maincontent {
-        padding: 2rem;
-    }
-  } */
+
+
