@@ -38,7 +38,11 @@ linkedin <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin 
 
 facebook icon
 <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Hight Quality Icons - Flaticon</a>
+
 Week 5
+
+favicon icon link
+<a href="https://www.flaticon.com/free-icons/government" title="government icons">Government icons created by Freepik - Flaticon</a>
 
 Week 6
 
