@@ -36,6 +36,17 @@ button {
     font-size: 1.1rem;
 }
 
+#list > li > button {
+    background: none;
+    border: none;
+    width: 44.5px;
+}
+
+#list > li > button:focus {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
 input {
     width: 200px;
 }
