@@ -18,6 +18,8 @@ document.getElementById("button").addEventListener("click", function () {
         const deleteB = document.createElement("button");
         // give the button text
         deleteB.innerHTML = "❌";
+        // giving accessibility to button
+        deleteB.ariaLabel = "Delete Item";
         // appending the button to the new li from line 12
         newContent.appendChild(deleteB);
         // append it to an element in the doc
