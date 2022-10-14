@@ -1,11 +1,3 @@
-// three variables that HOLD references to input, button, and list
-// const ref1 = x;
-// const ref2 = y;
-// const ref3 = z;
-
-// document.getElementsByClassName('input').textContent = x;
-// document.querySelector('favchap').textContent = y;
-// document.getElementsByClassName('list').textContent = z;
 document.getElementById("button").addEventListener("click", function () {
     const input = document.getElementById("favchap");
 
@@ -20,7 +12,7 @@ document.getElementById("button").addEventListener("click", function () {
         deleteB.innerHTML = "❌";
         // giving accessibility to button
         deleteB.ariaLabel = "Delete Item";
-        // appending the button to the new li from line 12
+        // appending the button to the new li
         newContent.appendChild(deleteB);
         // append it to an element in the doc
         document.getElementById("list").appendChild(newContent);
@@ -31,8 +23,7 @@ document.getElementById("button").addEventListener("click", function () {
             input.focus();
             input.value = "";
         });
-    input.focus();
-    input.value = "";
-
+        input.focus();
+        input.value = "";
     }
 });
