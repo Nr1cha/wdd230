@@ -44,6 +44,9 @@ Week 5
 favicon icon link
 <a href="https://www.flaticon.com/free-icons/government" title="government icons">Government icons created by Freepik - Flaticon</a>
 
+code icon
+<a href="https://www.flaticon.com/free-icons/coding" title="coding icons">Coding icons created by juicy_fish - Flaticon</a>
+
 Week 6
 
 Week 7
