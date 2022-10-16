@@ -91,6 +91,10 @@ header {
     text-align: center;
 }
 
+.hero {
+    object-fit: contain;
+}
+
 .link {
     color: #000;
     text-decoration: underline;
