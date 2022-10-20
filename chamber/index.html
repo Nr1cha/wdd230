@@ -26,7 +26,7 @@
         <div id="banner"></div>
         <ul class="headItems">
             <!-- this is the placeholder logo-->
-            <img src="images/salt-lake-city.webp" alt="image of a state building" height="64" width="64">
+            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
             <h1>Kaysville City Chamber of Commerce</h1>
             <div class="socialStuff">
                 <!-- icons -->
@@ -57,7 +57,15 @@
         <!-- THIS IS THE PICTURE TO CHANGE -->
         <section class="hero">
             <h2>City of Kaysville</h2>
-            <img src="images/wasatch-mountain-range-marilyn-h.webp" alt="picture of mountains">
+            <picture class="heroimg">
+                <source media="(max-width: 200px)"
+                        srcset="images/small-250.webp 250w">
+                <source media="(max-width: 399px)"
+                        srcset="images/medium-400.webp 400w">
+                <source media="(max-width: 599px)"
+                        srcset="images/large-600.webp 600w">
+                <img src="images/wdd230_original_Image.webp" alt="picture of mountains">
+            </picture>    
             <button>this is a button</button>
         </section>
         <!-- END -->
@@ -104,7 +112,7 @@
     <footer>
         <!-- section 1 logo and address info -->
         <div class="logoInfo">
-            <img src="images/salt-lake-city.webp" alt="image of a state building" height="64" width="64"> <!-- this is the placeholder logo-->
+            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64"> <!-- this is the placeholder logo-->
             <p>Kaysville City Chamber of Commerce</p>
             <p>23 East Center Street</p>
             <p> Kaysville, UT 84037</p>

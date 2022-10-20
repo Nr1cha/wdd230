@@ -1,6 +1,15 @@
 /* main CSS file */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&family=Raleway&display=swap');
+/* HEADER */
 
+.headerlogo {
+    /* width: 30%; */
+    align-self: center;
+}
+
+/* NAV */
+
+/* BODY MAIN */
 body {
     max-width: 95%;
     margin: auto;
@@ -18,6 +27,8 @@ h1,
 h2 {
     font-family: 'lato', sans-serif;
 }
+
+
 .socialStuff {
     display: flex;
     list-style-type: none;
@@ -170,6 +181,8 @@ body > main > section.spotlight > a:nth-child(2) {
 .spot3 {
     display: none;
 }
+
+/* FOOTER */
 footer {
     margin-top: 1rem;
     padding-top: 0.8rem;
@@ -188,7 +201,7 @@ footer h2 {
 }
 
 footer img {
-    max-width: 20%;
+    /* max-width: 20%; */
     margin-bottom: 0;
 }
 
