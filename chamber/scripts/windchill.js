@@ -1,6 +1,6 @@
 // Function to get temperature and windspeed, and calculate windchill
 function windChill() {
-    let currentTemp = 80;
+    let currentTemp = 40;
     let windSpeed = 8;
     let windChill;
     
