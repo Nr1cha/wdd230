@@ -43,7 +43,7 @@ h2 {
 }
 
 .show li {
-    display: flex;
+    display: block;
 }
 
 #banner {
@@ -64,8 +64,10 @@ h2 {
 }
 
 .nav-item a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
+    padding: 15px;
+    color: rgb(33, 18, 75);
 }
 
 .nav-item {
@@ -77,13 +79,7 @@ button {
     border: none;
 }
 
-nav a {
-    color: rgb(33, 18, 75);
-    display: flex;
-    padding: 15px;
-}
-
-a:hover {
+.nav-item a:hover {
     background: #0B0322;
     color: #A99AD1;
 }
@@ -108,7 +104,7 @@ footer {
 header {
     /* padding: 0.8rem; */
     background-color: #2a4d6e;
-    color: #94b0cb;
+    color: #b2c0cf;
     text-align: center;
 }
 
