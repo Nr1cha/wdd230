@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+.pictures{
+    display: grid;
+    grid-gap: 3px;
+    justify-items: center;
+}
+img {
+    min-width: 50px;
+    min-height: 50px;
+    border: 1px solid red;
+}

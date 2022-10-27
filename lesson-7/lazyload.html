@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <h1>H1 Text in the head.</h1>
-    <img src="images/funnyLookingCat.jpg" alt="">
-    <!-- images need to be 300 x 400 pixels -->
-    <picture> <img src="images/balloon.webp" alt=""> </picture>
-    <picture> <img src="images/Big-macOS-Sur.webp" alt=""> </picture>
-    <picture> <img src="images/music-seattle.webp" alt=""> </picture>
-    <picture> <img src="images/Mystery-Shack-Porch.webp" alt=""> </picture>
-    <picture> <img src="images/villageCG-artstation.webp" alt=""> </picture>
-    <picture> <img src="images/zelda-ghib.webp" alt=""> </picture>
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Example</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+
 </head>
 
 <body>
+    <section class="pictures">
+        <h1>H1 Text in the head.</h1>
+        <!-- images need to be 300 x 400 pixels -->
+        <picture> <img src="https://via.placeholder.com/300x400" data-src="images/funnyLookingCat.webp"></picture>
+        <picture> <img src="https://via.placeholder.com/300x400" data-src="images/balloon.webp" alt=""> </picture>
+        <picture> <img src="https://via.placeholder.com/300x400" data-src="images/Big-macOS-Sur.webp" alt=""> </picture>
+        <picture> <img src="https://via.placeholder.com/300x400" data-src="images/music-seattle.webp" alt=""> </picture>
+        <picture> <img src="https://via.placeholder.com/300x400" data-src="images/Mystery-Shack-Porch.webp" alt=""> </picture>
+        <picture> <img src="https://via.placeholder.com/300x400" data-src="images/villageCG-artstation.webp" alt=""> </picture>
+        <picture> <img src="https://via.placeholder.com/300x400" data-src="images/zelda-ghib.webp" alt=""> </picture>
+    </section>
+    <script src="script/script.js" defer></script>
+
+
 
 </body>
 
