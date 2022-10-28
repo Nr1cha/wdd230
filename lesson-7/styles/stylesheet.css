@@ -6,8 +6,13 @@ h1 {
     grid-gap: 3px;
     justify-items: center;
 }
+img[data-src] {
+    filter: blur(0.2em);
+}
 img {
     min-width: 50px;
     min-height: 50px;
-    border: 1px solid red;
+    filter: blur(0em);
+    transition: filter 0.5s;
+
 }
