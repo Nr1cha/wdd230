@@ -28,10 +28,25 @@
   .hero {
     grid-column: 1/4;
   }
+
   .hero img {
-    object-fit:cover;
+    object-fit: cover;
     height: 100%;
     width: 100%;
+  }
+
+  /* IMAGES */
+  .pictures {
+    display: grid;
+    grid-gap: 3px;
+    justify-items: center;
+  }
+
+  .pictures img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .news {

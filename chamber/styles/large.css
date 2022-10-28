@@ -30,6 +30,19 @@
     grid-template-rows: auto;
   }
 
+  .pictures {
+      display: grid;
+      grid-gap: 3px;
+      justify-items: center;
+  }
+
+  .pictures img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .event {
     grid-area: 1/1/2/2;
   }
