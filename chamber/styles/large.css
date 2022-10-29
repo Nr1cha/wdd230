@@ -43,6 +43,11 @@
     margin-right: auto;
   }
 
+  figure {
+    text-align: center;
+  }
+
+
   .event {
     grid-area: 1/1/2/2;
   }

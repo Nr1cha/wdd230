@@ -49,6 +49,10 @@
     margin-right: auto;
   }
 
+  figure {
+    text-align: center;
+  }
+
   .news {
     grid-row-start: 2;
     grid-column: 1/4;
