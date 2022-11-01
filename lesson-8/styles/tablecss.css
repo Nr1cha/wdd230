@@ -1,0 +1,26 @@
+/* TABLES */
+table {
+    width: 100%;
+    border: solid 1px black;
+}
+tr {
+    background-color: green;
+    color: white;
+}
+td  {
+    background-color: rgb(168, 168, 168);
+    color: black;
+    border: solid 1px black;
+}
+
+
+/* SPECIFIC TARGET STYLING */
+body > section > table > tbody > tr:nth-child(3) > td:nth-child(3) {
+    text-align: center;
+    background-color: goldenrod;
+}
+body > section.table2 > table > tbody > tr:nth-child(1) > td:nth-child(2)   {
+    text-align: center;
+    color: white;
+    background-color: green;
+}
