@@ -2,18 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/large.css"> -->
+
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" the Kaysville city chamber of commerce website assignment for WDD 230">
+        <!-- links -->
+        <link rel="shortcut icon" href="../government-favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+        <!-- css stuff -->
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    <title>Kaysville City Chamber of discovery images</title>
+
 
 </head>
 
 <body>
+    <header class="mainHeader">
+        <div id="banner"></div>
+        <ul class="headItems">
+            <!-- this is the placeholder logo-->
+            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
+            <h1>Kaysville City Chamber of Commerce</h1>
+            <div class="socialStuff">
+                <!-- icons -->
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" height="46" width="46"
+                        alt="link to facebook website"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin_icon.webp" height="46" width="46"
+                        alt="link to linkedin website"></a>
+            </div>
+        </ul>
+        <!-- navigation bar -->
+        <nav class="navbar main-navigation">
+
+            <ul id="primaryNav">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <li class="nav-item"><a class="hamburger" href="#">Menu</a></li>
+                <li class="nav-item"><a class="active" href="">Home</a></li>
+                <li class="nav-item"><a href="">Discover</a></li>
+                <li class="nav-item"><a href="">Directory</a></li>
+                <li class="nav-item"><a href="">Join</a></li>
+                <li class="nav-item"><a href="">Contact</a></li>
+            </ul>
+
+        </nav>
+        <div class="currentDate"><span id="yearNow"></span> </div>
+    </header>
     <h1>Kaysville City</h1>
     <p><span class="label"> Number of visits: </span><span class="visits"></span></p>
     <hr>
@@ -21,11 +69,11 @@
 
     <section class="pictures">
         <!-- images need to be 300 x 400 pixels -->
-        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-1.webp" alt=""><figcaption>Image of a river with a mountain</figcaption> </figure>
-        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-2.webp" alt=""><figcaption>Road going through a mountain canyon</figcaption> </figure>
-        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-3.webp" alt=""><figcaption>Iconic mountains in Monument Valley</figcaption> </figure>
-        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-4.webp" alt=""><figcaption>Zion National park in the evening</figcaption> </figure>
-        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-5.webp" alt=""><figcaption>Logan Utah</figcaption> </figure>
+        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-1.webp" width="1200" height="627" alt=""><figcaption>Image of a river with a mountain</figcaption> </figure>
+        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-2.webp" width="1200" height="627" alt=""><figcaption>Road going through a mountain canyon</figcaption> </figure>
+        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-3.webp" width="1200" height="627" alt=""><figcaption>Iconic mountains in Monument Valley</figcaption> </figure>
+        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-4.webp" width="1200" height="627" alt=""><figcaption>Zion National park in the evening</figcaption> </figure>
+        <figure> <img class="discover" src="https://via.placeholder.com/1200x627" data-src="images/picture-5.webp" width="1200" height="627" alt=""><figcaption>Logan Utah</figcaption> </figure>
     </section>
     <script src="scripts/lazyload.js"></script>
     <script src="scripts/lastvisit.js"></script>
