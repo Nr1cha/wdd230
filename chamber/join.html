@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="mainForm firstForm">
+        <form action="thankyou.html">
+            <label for="fname">First name: </label><br>
+            <input type="text" id="fname" name="fname" placeholder="firstname" required><br>
+
+            <label for="lname">Last name: </label> <br>
+            <input type="text" name="lname" id="lname" placeholder="lastname" required>
+
+            <label for="bposition">Business position: </label><br>
+            <input type="text" name="bposition" id="bposition" placeholder="business position">
+            <!-- get this one below to accept alpha characters, hyphens and spaces  -->
+            <!-- minimum of 7 characters -->
+
+            <label for="mail">Email:</label><br>
+            <input type="email" name="mail" id="email" placeholder="email" required>
+            
+            <label for="mphone">Cell phone:</label><br>
+            <input type="tel" name="mphone" id="mphone" placeholder="(555)867-5309" required>
+
+            <label for="busname">Business Title:</label><br>
+            <input type="text" name="busname" id="busname" placeholder="business title" required><br>
+
+            <form action="" class="membershipLevel member level">
+                <p>Membership level:</p>
+
+                <input type="checkbox" id="NPMembership" name="NPMembership" placeholder="NP Membership">
+                <label for="NPMembership">N/A Membership</label><br>
+
+                <input type="checkbox" id="bronzeMem" name="bronzeMem" placeholder="Bronze Membership">
+                <label for="bronzeMem">Bronze Membership</label><br>
+
+                <input type="checkbox" id="silverMem" name="silverMem" placeholder="Silver Membership">
+                <label for="silverMem">Silver Membership</label><br>
+
+                <input type="checkbox" id="goldMem" name="goldMem" placeholder="Gold Membership">
+                <label for="goldMem">Gold Membership</label><br>
+            </form>
+
+            <form action="" class="textbox description">
+                Business Description:
+                <textarea name="description" id="description" cols="40" rows="10"></textarea>
+            </form>
+
+            <input type="hidden" id="hidetime" name="hidetime">
+
+            <input type="submit" value="Complete form">
+        </form>
+    </section>
+</body>
+
+</html>
