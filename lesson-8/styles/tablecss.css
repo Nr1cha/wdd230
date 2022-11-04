@@ -3,6 +3,10 @@ table {
     width: 100%;
     border: solid 1px black;
 }
+.thead {
+    color: black;
+    background-color: #20B2AA;
+}
 tr {
     background-color: green;
     color: white;
@@ -15,12 +19,20 @@ td  {
 
 
 /* SPECIFIC TARGET STYLING */
-body > section > table > tbody > tr:nth-child(3) > td:nth-child(3) {
-    text-align: center;
-    background-color: goldenrod;
+body > section > table > tbody > tr:nth-child(4) > td:nth-child(1){
+    background-color: white;
 }
-body > section.table2 > table > tbody > tr:nth-child(1) > td:nth-child(2)   {
-    text-align: center;
+body > section > table > tbody > tr:nth-child(4) > td.greenlight {
     color: white;
     background-color: green;
+}
+
+body > section > table > tbody > tr:nth-child(6) > td {
+    background-color: white;
+}
+
+body > section > table > tbody > tr:nth-child(8) > td {
+    text-align: center;
+    color: green;
+    background-color: white;
 }
