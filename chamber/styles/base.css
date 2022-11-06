@@ -186,6 +186,44 @@ body > main > section.spotlight > a:nth-child(2) {
     display: none;
 }
 
+/* JOIN PAGE */
+
+.mainForm {
+    background-color: lightblue;
+    border: solid 1px darkgray;
+    margin: inherit;
+    padding: .5em;
+}
+
+label,
+input {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    display: inline-block;
+}
+
+
+input {
+    display: block;
+}
+
+.memLab {
+    margin: 1em;
+    display: inline-grid;
+}
+
+textarea {
+    width: 100%;
+    height: 5em;
+    padding: unset;
+}
+
+
+/* END OF JOIN PAGE */
+
+
+
+
 /* FOOTER */
 footer {
     margin-top: 1rem;

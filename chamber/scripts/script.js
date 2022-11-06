@@ -31,3 +31,11 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 document.querySelector("#yearNow").textContent = fulldateUK;
 document.querySelector("#year").textContent = currentYear;
 document.querySelector("#modded").textContent = lastModified;
+
+
+// join page
+const joinTime = now.toLocaleString([], {
+    dateStyle: 'full',
+    timeStyle: 'short',
+})
+document.getElementById("hidetime").value = joinTime;
