@@ -2,10 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <head>
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" The Kaysville city Chamber of Commerce Join page">
+        <!-- links -->
+        <link rel="shortcut icon" href="../government-favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+        <!-- css stuff -->
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <title>Join Kaysville City</title>
+
+    </head>
 </head>
 
 <body>
@@ -17,13 +33,11 @@
             <label for="lname">Last name: </label><br>
             <input type="text" name="lname" id="lname" placeholder="lastname" required>
 
-            <label for="bposition">Business position: </label><br>
-            <input type="text" name="bposition" id="bposition" placeholder="business position">
-            <!-- get this one below to accept alpha characters, hyphens and spaces  -->
-            <!-- minimum of 7 characters -->
+            <label for="bposition">Business position "please type in a minimum of 7 alpha characters " </label><br>
+            <input type="text" name="bposition" id="bposition" placeholder="business position" pattern="[- a-zA-Z]{7,}" >
 
             <label for="mail">Email:</label><br>
-            <input type="email" name="mail" id="email" placeholder="email" required>
+            <input type="email" name="mail" id="email" placeholder="something@gmail.com" required>
 
             <label for="mphone">Cell phone:</label><br>
             <input type="tel" name="mphone" id="mphone" placeholder="(555)867-5309" required>
@@ -31,28 +45,27 @@
             <label for="busname">Business Title:</label><br>
             <input type="text" name="busname" id="busname" placeholder="business title" required><br>
 
-            <form action="" class="membershipLevel member level">
-                <p>Membership level:</p>
+            <p>Membership level:</p>
 
-                <input type="checkbox" id="NPMembership" name="NPMembership" placeholder="NP Membership">
-                <label for="NPMembership">N/A Membership</label><br>
+            <input type="radio" id="NPMembership" name="radiobutton">
+            <label for="NPMembership">N/A Membership</label><br>
 
-                <input type="checkbox" id="bronzeMem" name="bronzeMem" placeholder="Bronze Membership">
-                <label for="bronzeMem">Bronze Membership</label><br>
+            <input type="radio" id="bronzeMem" name="radiobutton">
+            <label for="bronzeMem">Bronze Membership</label><br>
 
-                <input type="checkbox" id="silverMem" name="silverMem" placeholder="Silver Membership">
-                <label for="silverMem">Silver Membership</label><br>
+            <input type="radio" id="silverMem" name="radiobutton">
+            <label for="silverMem">Silver Membership</label><br>
 
-                <input type="checkbox" id="goldMem" name="goldMem" placeholder="Gold Membership">
-                <label for="goldMem">Gold Membership</label><br>
-            </form>
+            <input type="radio" id="goldMem" name="radiobutton">
+            <label for="goldMem">Gold Membership</label><br>
 
-            <form action="" class="textbox description">
-                Business Description:
-                <textarea name="description" id="description" cols="40" rows="10"></textarea>
-            </form>
 
-            <input type="hidden" id="hidetime" name="hidetime">
+
+            <label for="textarea">Business Description:</label><br>
+            <textarea name="description" placeholder="Type here" id="description" cols="40" rows="10"></textarea>
+
+
+            <input type="hidden" id="hidetime" name="hidetime"> <br>
 
             <input type="submit" value="Complete form">
         </form>
