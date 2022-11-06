@@ -221,7 +221,13 @@ textarea {
 
 /* END OF JOIN PAGE */
 
-
+.btn {
+    padding: 15px 32px;
+    border: none;
+    background-color: #2a4d6e;
+    color: white;
+    cursor: pointer;
+}
 
 
 /* FOOTER */
