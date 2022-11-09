@@ -2,7 +2,6 @@ const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-
 const cards = document.querySelector('.cards');
 // firstName = "nick";
 // lvdate = "june 15th";
-// console.log (`${"Welcome back"} ${firstName}${"! You last visited on"} ${lvdate}.`);
 // console.log (`Welcome back ${firstName}! You last visited on ${lvdate}.`);
 
 
@@ -43,8 +42,8 @@ async function getProphetData(){
     portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', 'Portait of ' + `${prophet.name}` + ` ${prophet.lastname}`);
     portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('height', '50%');
-    portrait.setAttribute('width', '50%');
+    // portrait.setAttribute('height', '50%');
+    // portrait.setAttribute('width', '50%');
 
     // Add/append the section(card) with the h2 element
     card.append(h2,dob,birthLoc,portrait);
