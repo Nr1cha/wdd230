@@ -32,7 +32,7 @@ async function getProphetData(){
     // adding the elements
     birthLoc.textContent = `${"Place of Birth:"} ${prophet.birthplace}`
     dob.textContent = `${"Date of Birth:"} ${prophet.birthdate}`;
-    children.textContent = `${"Number of Children:"} ${prophet.numofchildren}`;
+    // children.textContent = `${"Number of Children:"} ${prophet.numofchildren}`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
@@ -40,7 +40,7 @@ async function getProphetData(){
     portrait.setAttribute('loading', 'lazy');
 
     // Add/append the section(card) with the h2 element
-    card.append(h2,birthLoc,dob,children,portrait);
+    card.append(h2,dob,birthLoc,portrait);
 
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
