@@ -38,6 +38,8 @@ async function getProphetData(){
     portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', 'Portait of ' + `${prophet.name}` + ` ${prophet.lastname}`);
     portrait.setAttribute('loading', 'lazy');
+    portrait.setAttribute('height', '50%');
+    portrait.setAttribute('width', '50%');
 
     // Add/append the section(card) with the h2 element
     card.append(h2,dob,birthLoc,portrait);
