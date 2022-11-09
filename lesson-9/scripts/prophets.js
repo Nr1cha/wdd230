@@ -1,5 +1,10 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
+// firstName = "nick";
+// lvdate = "june 15th";
+// console.log (`${"Welcome back"} ${firstName}${"! You last visited on"} ${lvdate}.`);
+// console.log (`Welcome back ${firstName}! You last visited on ${lvdate}.`);
+
 
 async function getProphetData(){
     const response = await fetch(requestURL)
