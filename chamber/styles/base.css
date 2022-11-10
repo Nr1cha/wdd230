@@ -162,6 +162,9 @@ body > main > section.spotlight > a:nth-child(2) {
     text-align: center;
     align-self: center;
 }
+.hamburger {
+    font-size: 2rem;
+}
 
 
 /* WORK ON THIS AFTER BREAK */
