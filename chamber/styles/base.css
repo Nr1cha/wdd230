@@ -184,6 +184,10 @@ body > main > section.spotlight > a:nth-child(2) {
 .pictures figure {
     margin: auto;
 }
+img.discover {
+    width: 100%;
+    height: auto;
+}
 
 .spot3 {
     display: none;
