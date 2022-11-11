@@ -1,76 +1,76 @@
 {
     "companies": [
         {
-            "name": "" ,
+            "name": "Go Figure" ,
             "address": "" ,
-            "phoneNumber": "" ,
+            "phoneNumber": "202-555-0162" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "Gold" 
         },
         {
-            "name": "" ,
+            "name": "The Sleek Apple" ,
             "address": "" ,
-            "phoneNumber": "" ,
+            "phoneNumber": "202-555-0101" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "Bronze" 
         },
         {
-            "name": "" ,
+            "name": "The Bitter Dish" ,
             "address": "" ,
-            "phoneNumber": "" ,
+            "phoneNumber": "555-867-5309" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "Bronze" 
         },
         {
-            "name": "" ,
+            "name": "Hipster Graphics" ,
             "address": "" ,
-            "phoneNumber": "" ,
+            "phoneNumber": "202-555-0185" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "N/A" 
         },
         {
-            "name": "" ,
+            "name": "The Empty Plate" ,
             "address": "" ,
-            "phoneNumber": "" ,
+            "phoneNumber": "202-555-0142" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "N/A" 
         },
         {
-            "name": "" ,
+            "name": "Old Granola Trading" ,
             "address": "" ,
-            "phoneNumber": "" ,
+            "phoneNumber": "202-555-0194" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "Gold" 
         },
         {
-            "name": "" ,
+            "name": "Purely Unoriginal" ,
             "address": "" ,
-            "phoneNumber": "" ,
+            "phoneNumber": "202-555-0114" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "Gold" 
         },
         {
-            "name": "" ,
+            "name": "The British Frodo" ,
             "address": "" ,
-            "phoneNumber": "" ,
+            "phoneNumber": "+1-202-555-0162" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "Silver" 
         },
         {
-            "name": "" ,
+            "name": "The Whispering Tome" ,
             "address": "" ,
             "phoneNumber": "" ,
             "websiteURL": "" ,
             "image": "" ,
-            "membershipLevel": "" 
+            "membershipLevel": "Bronze" 
         }
     ]
 }
