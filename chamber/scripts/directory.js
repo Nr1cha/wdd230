@@ -41,8 +41,8 @@ async function getCompanyData(){
     picture.setAttribute('src', company.image);
     picture.setAttribute('alt', 'Company name ' + `${company.name}`);
     picture.setAttribute('loading', 'lazy');
-    picture.setAttribute('width', '768');
-    picture.setAttribute('height', '402');
+    picture.setAttribute('width', '172');
+    picture.setAttribute('height', '172');
 
 
     // Add/append the section(card) with the h2 element

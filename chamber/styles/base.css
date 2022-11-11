@@ -190,6 +190,17 @@ img.companyPic {
     height: auto;
 }
 
+.companyPic {
+    box-shadow: 3px 3px 4px #2f2f2f;
+    border: 1px solid lightgray;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(269px, 1fr));
+    grid-gap: 1.875rem;
+}
+
 .spot3 {
     display: none;
 }
