@@ -13,7 +13,6 @@ async function getCompanyData(){
     companys.forEach(displayBusinesses);
 }
 
- 
   function displayBusinesses(company) {
     // Create elements to add to the document
     let card = document.createElement('section');
@@ -22,14 +21,13 @@ async function getCompanyData(){
     let phoneNum = document.createElement('p');
     let address = document.createElement('p');
     let email = document.createElement('p');
+
     // adding classname to elements using a loop
     [phoneNum, address, email].forEach((element) => { 
         element.classList.add('caption');
     })
     // without a loop
     picture.classList.add('companyPic');
-
-
 
     // Change the textContent property of the h2 element to contain the company's full name
     // adding the elements
@@ -43,7 +41,6 @@ async function getCompanyData(){
     picture.setAttribute('loading', 'lazy');
     picture.setAttribute('width', '172');
     picture.setAttribute('height', '172');
-
 
     // Add/append the section(card) with the h2 element
     card.append(h2,picture,address,phoneNum);
