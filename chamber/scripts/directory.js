@@ -3,14 +3,13 @@ const jsonURL = './data.json';
 const cards = document.querySelector('.cards');
 // console.log('file works');
 
-
+// fetch the data 
 async function getCompanyData(){
     const response = await fetch(jsonURL)
     const jsonObject = await response.json();
     const companys = jsonObject['companies'];
     // temporary checking for valid response and data parsing
     console.table(jsonObject);
-    // console.log('async function works');
     companys.forEach(displayBusinesses);
 }
 
@@ -27,6 +26,8 @@ async function getCompanyData(){
     [phoneNum, address, email].forEach((element) => { 
         element.classList.add('caption');
     })
+    // without a loop
+    picture.classList.add('companyPic');
 
 
 
@@ -40,6 +41,9 @@ async function getCompanyData(){
     picture.setAttribute('src', company.image);
     picture.setAttribute('alt', 'Company name ' + `${company.name}`);
     picture.setAttribute('loading', 'lazy');
+    picture.setAttribute('width', '768');
+    picture.setAttribute('height', '402');
+
 
     // Add/append the section(card) with the h2 element
     card.append(h2,picture,address,phoneNum);
@@ -47,5 +51,5 @@ async function getCompanyData(){
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
 }
-// this function call is to fetch the external data
+// call getCompanyData function to fetch the external data
 getCompanyData();

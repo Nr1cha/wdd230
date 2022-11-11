@@ -5,7 +5,7 @@
             "address": "732 Prosacco Mews" ,
             "phoneNumber": "202-555-0162" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/goFigure.png" ,
             "membershipLevel": "Gold" ,
             "email": "umante@connelly.biz"
         },
@@ -14,7 +14,7 @@
             "address": "65211 Corkery Crest" ,
             "phoneNumber": "202-555-0101" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/the-sleek-apple.png" ,
             "membershipLevel": "Bronze" ,
             "email": "erika13@dickens.org"
         },
@@ -23,7 +23,7 @@
             "address": "15911 Brionna Plaza" ,
             "phoneNumber": "555-867-5309" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/theBitterDish.png" ,
             "membershipLevel": "Bronze" ,
             "email": "louvenia.hirthe@casper.biz"
         },
@@ -32,7 +32,7 @@
             "address": "650 Berta Forest" ,
             "phoneNumber": "202-555-0185" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/hipsterGraphics.png" ,
             "membershipLevel": "N/A" ,
             "email": "erna.purdy@streich.org"
         },
@@ -41,7 +41,7 @@
             "address": "8813 O'Connell Rue" ,
             "phoneNumber": "202-555-0142" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/theEmptyPlate.png" ,
             "membershipLevel": "N/A" ,
             "email": "sharvey@christiansen.biz"
         },
@@ -50,7 +50,7 @@
             "address": "879 Hudson Loop" ,
             "phoneNumber": "202-555-0194" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/oldGranolaTrading.png" ,
             "membershipLevel": "Gold" ,
             "email": "koch.fatima@oconner.info"
         },
@@ -59,7 +59,7 @@
             "address": "218 Streich Manor" ,
             "phoneNumber": "202-555-0114" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/purelyUnoriginal.png" ,
             "membershipLevel": "Gold" ,
             "email": "omorissette@casper.biz"
         },
@@ -68,7 +68,7 @@
             "address": "450 Silas Cove" ,
             "phoneNumber": "+1-202-555-0162" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/theBritishFrodo.png" ,
             "membershipLevel": "Silver" ,
             "email": "jsipes@rice.net"
         },
@@ -77,7 +77,7 @@
             "address": "39645 Skiles Keys" ,
             "phoneNumber": "" ,
             "websiteURL": "" ,
-            "image": "" ,
+            "image": "images/theWhisperingTome.png" ,
             "membershipLevel": "Bronze" ,
             "email": "dexter80@balistreri.net"
         }

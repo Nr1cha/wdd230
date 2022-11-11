@@ -104,7 +104,7 @@ footer {
 header {
     /* padding: 0.8rem; */
     background-color: #2a4d6e;
-    color: #b2c0cf;
+    color: #ebedf1;
     text-align: center;
 }
 
@@ -184,7 +184,8 @@ body > main > section.spotlight > a:nth-child(2) {
 .pictures figure {
     margin: auto;
 }
-img.discover {
+img.discover,
+img.companyPic {
     width: 100%;
     height: auto;
 }
