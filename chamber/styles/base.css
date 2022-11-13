@@ -17,6 +17,10 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+main{
+    display: unset;
+}
+
 h1 {
     text-align: center;
     margin: 0;
@@ -195,10 +199,47 @@ img.companyPic {
     border: 1px solid lightgray;
 }
 
+/* DIRECTORY PAGE */
+
+h1{
+    margin: auto;
+    text-align: center;
+}
+
+.hidePic {
+    display: none;
+}
+
+.directButtons {
+    margin: auto;
+    text-align: center;
+}
+.gridbtn, .listbtn {
+    margin: 6px;
+    padding: .6rem;
+    border: none;
+    color: #ebedf1;
+    background-color: #2a4d6e;
+}
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(269px, 1fr));
     grid-gap: 1.875rem;
+}
+
+.list {
+    margin: auto;
+    display: grid;
+}
+
+.h2List {
+    display: inline-block;
+    padding: .5rem;
+}
+
+p {
+    display: inline-block;
+    padding: .2rem;
 }
 
 .spot3 {

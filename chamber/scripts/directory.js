@@ -28,6 +28,7 @@ async function getCompanyData(){
     })
     // without a loop
     picture.classList.add('companyPic');
+    h2.classList.add('h2List');
 
     // Change the textContent property of the h2 element to contain the company's full name
     // adding the elements
@@ -48,5 +49,30 @@ async function getCompanyData(){
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
 }
+
+
+// Transition between grid and list format
+const gridButton = document.querySelector(".gridbtn");
+const listButton = document.querySelector(".listbtn");
+const display = document.querySelector(".mainContent");
+
+// Using arrow function
+gridButton.addEventListener("click", () => {
+    display.classList.add("cards");
+    display.classList.remove("list");
+    const images = document.querySelectorAll(".companyPic");
+    images.forEach((image) => {
+        image.classList.remove("hidePic");
+    })
+
+});
+listButton.addEventListener("click", () => {
+    display.classList.add("list");
+    display.classList.remove("cards");
+    const images = document.querySelectorAll(".companyPic");
+    images.forEach((image) => {
+        image.classList.add("hidePic");
+    })
+});
 // call getCompanyData function to fetch the external data
 getCompanyData();
