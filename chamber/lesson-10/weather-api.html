@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 10 Assingment</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <script src="scripts/weatherapi.js" defer></script>
+    <link rel="stylesheet" href="/chamber/styles/normalize.css">
+    <link rel="stylesheet" href="/chamber/styles/base.css">
+    <link rel="stylesheet" href="/chamber/styles/medium.css">
+    <link rel="stylesheet" href="/chamber/styles/large.css">
 </head>
 
 <body>
@@ -18,19 +17,19 @@
         <div id="banner"></div>
         <ul class="headItems">
             <!-- this is the placeholder logo-->
-            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
+            <img src="/chamber/images/congress_icon.webp" alt="image of a state building" height="64" width="64">
             <h1>Kaysville City Chamber of Commerce</h1>
             <div class="socialStuff">
                 <!-- icons -->
-                <a href="https://www.facebook.com/"><img src="images/facebook.webp" height="46" width="46"
+                <a href="https://www.facebook.com/"><img src="/chamber/images/facebook.webp" height="46" width="46"
                         alt="link to facebook website"></a>
-                <a href="https://www.linkedin.com/"><img src="images/linkedin_icon.webp" height="46" width="46"
+                <a href="https://www.linkedin.com/"><img src="/chamber/images/linkedin_icon.webp" height="46" width="46"
                         alt="link to linkedin website"></a>
             </div>
         </ul>
         <!-- navigation bar -->
         <nav class="navbar main-navigation">
-    
+
             <ul id="primaryNav">
                 <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
                 <li class="nav-item"><a class="active" href="">Home</a></li>
@@ -39,7 +38,7 @@
                 <li class="nav-item"><a href="">Join</a></li>
                 <li class="nav-item"><a href="">Contact</a></li>
             </ul>
-    
+
         </nav>
         <div class="currentDate"><span id="yearNow"></span></div>
     </header>
@@ -55,7 +54,7 @@
     <footer>
         <!-- section 1 logo and address info -->
         <div class="logoInfo">
-            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
+            <img src="/chamber/images/congress_icon.webp" alt="image of a state building" height="64" width="64">
             <!-- this is the placeholder logo-->
             <p>Kaysville City Chamber of Commerce</p>
             <p>23 East Center Street</p>
@@ -74,8 +73,10 @@
             <hr>
             <div class="footer1">&copy; <span id="year"></span> Kaysville City Chamber | Nick Richards | WDD 230 Project
                 | Last Updated:<span id="modded"></span></div>
-            <script src="scripts/script.js"></script>
-            <script src="scripts/menu.js"></script>
+            <script src="/chamber/scripts/script.js"></script>
+            <script src="/chamber/scripts/menu.js"></script>
+            <script src="scripts/weatherapi.js"></script>
+
         </div>
     </footer>
 </body>
