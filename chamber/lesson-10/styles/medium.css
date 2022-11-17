@@ -1,0 +1,90 @@
+/* medium - tablet */
+@media screen and (min-width: 769px) {
+  body {
+    max-width: 95%;
+  }
+
+  .maincontent {
+    padding: 2rem;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  main {
+    display: grid;
+    grid-column-gap: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero {
+    grid-column: 1/4;
+  }
+
+  .hero img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  /* IMAGES */
+  .pictures {
+    display: grid;
+    grid-gap: 3px;
+    justify-items: center;
+  }
+
+  .pictures img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: blur(0em);
+    transition: filter 1s;;
+  }
+  .discover:hover {
+    filter: blur(0.2em);
+
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  .news {
+    grid-row-start: 2;
+    grid-column: 1/4;
+  }
+
+  .spotlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 140px;
+    grid-row-start: 3;
+    grid-column: 1/4;
+  }
+
+  .join {
+    display: block;
+    grid-row-start: 4;
+    grid-column: 1/4;
+  }
+
+  .event {
+    grid-row-start: 5;
+    grid-column: 1/3;
+  }
+
+  .weather {
+    grid-row-start: 5;
+    grid-column: 3/4;
+  }
+}
