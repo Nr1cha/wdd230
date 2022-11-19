@@ -1,6 +1,6 @@
 // select HTML elements in the document
 const url =
-    "https://api.openweathermap.org/data/2.5/weather?q=fairbanks&units=imperial&appid=b0b41ac10094817e9cec6c0486ebf081";
+    "https://api.openweathermap.org/data/2.5/weather?q=kaysville&units=imperial&appid=b0b41ac10094817e9cec6c0486ebf081";
 const page = document.querySelector(".content");
 
 async function apiFetch() {
@@ -26,10 +26,12 @@ function displayResults(weatherdata) {
     const windSpeed = document.querySelector("#wind-speed");
     // const windChill = document.querySelector("wind-chill");
 
-
     // adding data from the API to the page
     currentTemp.textContent = weatherdata.main.temp;
     windSpeed.textContent = weatherdata.wind.speed;
+    // console.log(weatherdata.wind.speed, weatherdata.main.temp, windChill )
+    windChill(weatherdata.wind.speed, weatherdata.main.temp);
+
     weatherIcon.src = `http://openweathermap.org/img/wn/${weatherdata.weather[0].icon}@2x.png`;
     captionDesc.textContent = weatherdata.weather[0].description;
 }
@@ -39,3 +41,4 @@ async function init() {
     displayResults(data);
 }
 init();
+

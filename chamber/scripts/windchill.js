@@ -1,7 +1,5 @@
 // Function to get temperature and windspeed, and calculate windchill
-function windChill() {
-    let currentTemp = 40;
-    let windSpeed = 8;
+function windChill(windSpeed, currentTemp) {
     let windChill;
     
     if (windSpeed > 3 && currentTemp <= 50) {
@@ -10,9 +8,7 @@ function windChill() {
     } else {
         windChill = "NA";
     }
-    document.getElementById("temp").innerHTML = currentTemp;
-    document.getElementById("speed").innerHTML = windSpeed;
-    document.getElementById("chill").innerHTML = windChill;
+    document.querySelector("#current-temp").innerHTML = currentTemp;
+    document.querySelector("#wind-speed").innerHTML = windSpeed;
+    document.querySelector("#wind-chill").innerHTML = windChill;
 }
-
-windChill();
