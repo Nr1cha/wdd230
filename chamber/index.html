@@ -74,9 +74,13 @@
 
         <section class="weather">
             <h2>Weather</h2>
-            <p>Current Temperature: <span id="temp">40</span></p>
-            <p>wind speed: <span id="speed">8</span></p>
-            <p>wind chill: <span id="chill">34.6</span></p>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p>Current Temperature: <span id="current-temp"></span></p>
+            <p>wind speed: <span id="wind-speed"></span></p>
+            <p>wind chill: <span id="wind-chill"></span></p>
         </section>
         <section class="news">
             <h2>Latest News...</h2>
@@ -124,7 +128,7 @@
             <script src="scripts/script.js"></script>
             <script src="scripts/menu.js"></script>
             <script src="scripts/windchill.js"></script>
-
+            <script src="scripts/weatherapiv2.js"></script>
         </div>
     </footer>
 </body>
