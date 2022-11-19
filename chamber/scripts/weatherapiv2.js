@@ -1,6 +1,6 @@
 // select HTML elements in the document
 const url =
-    "https://api.openweathermap.org/data/2.5/weather?q=kaysville&units=imperial&appid=b0b41ac10094817e9cec6c0486ebf081";
+    "https://api.openweathermap.org/data/2.5/weather?lat=41.034878&lon=-111.938644&units=imperial&appid=b0b41ac10094817e9cec6c0486ebf081";
 const page = document.querySelector(".content");
 
 async function apiFetch() {
@@ -27,8 +27,11 @@ function displayResults(weatherdata) {
     // const windChill = document.querySelector("wind-chill");
 
     // adding data from the API to the page
-    currentTemp.textContent = weatherdata.main.temp;
-    windSpeed.textContent = weatherdata.wind.speed;
+    const currentTempFixed = weatherdata.main.temp.toFixed(0);
+    currentTemp.textContent = currentTempFixed;
+
+    const windSpeedFixed = weatherdata.wind.speed.toFixed(0);
+    windSpeed.textContent = windSpeedFixed;
     // console.log(weatherdata.wind.speed, weatherdata.main.temp, windChill )
     windChill(weatherdata.wind.speed, weatherdata.main.temp);
 
