@@ -22,6 +22,10 @@
   .hamburger{
     display: none;
   }
+  
+  .socialStuff{
+    display: unset;
+  }
 
   body>header>nav>ul>button {
     display: none;

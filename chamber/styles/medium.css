@@ -8,6 +8,10 @@
     padding: 2rem;
   }
 
+  .socialStuff{
+    display: unset;
+  }
+
   nav {
     flex-direction: column;
   }
