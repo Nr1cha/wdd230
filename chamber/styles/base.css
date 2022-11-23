@@ -24,6 +24,7 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 1.5rem;
+    padding-bottom: 0;
 }
 
 h1,
@@ -33,7 +34,8 @@ h2 {
 
 
 .socialStuff {
-    display: flex;
+    display: none;
+    /* display: flex; */
     list-style-type: none;
 
 }
@@ -59,7 +61,7 @@ h2 {
 }
 
 .navbar {
-    background: #A99AD1;
+    background: #2a4d6e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +72,7 @@ h2 {
     display: block;
     text-decoration: none;
     padding: 15px;
-    color: rgb(33, 18, 75);
+    color: white;
 }
 
 .nav-item {
@@ -83,8 +85,8 @@ button {
 }
 
 .nav-item a:hover {
-    background: #0B0322;
-    color: #A99AD1;
+    background: white;
+    color: black;
 }
 
 .headItems {
@@ -93,6 +95,7 @@ button {
     align-items: center;
     padding-left: 0;
     padding-top: .8rem;
+    margin-bottom: 0;
 }
 
 .currentDate {

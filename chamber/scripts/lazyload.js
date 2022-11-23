@@ -13,8 +13,6 @@ const imgOptions = {
     rootMargin: "0px 0px 0px 0px"
 };
 
-console.log("is this working?");
-
 if('IntersectionObserver' in window) {
     const imgObserver = new IntersectionObserver((entries, imgObserver) => {
         entries.forEach((entry) => {
