@@ -19,6 +19,10 @@
     display: inline-block;
   }
 
+  .hamburger{
+    display: none;
+  }
+
   body>header>nav>ul>button {
     display: none;
   }
