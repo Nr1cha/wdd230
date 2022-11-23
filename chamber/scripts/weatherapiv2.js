@@ -35,7 +35,7 @@ function displayResults(weatherdata) {
     // console.log(weatherdata.wind.speed, weatherdata.main.temp, windChill )
     windChill(weatherdata.wind.speed, weatherdata.main.temp);
 
-    weatherIcon.src = `http://openweathermap.org/img/wn/${weatherdata.weather[0].icon}@2x.png`;
+    weatherIcon.src = `https://openweathermap.org/img/wn/${weatherdata.weather[0].icon}@2x.png`;
     captionDesc.textContent = weatherdata.weather[0].description;
 }
 
