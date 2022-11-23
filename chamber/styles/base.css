@@ -11,9 +11,8 @@
 
 /* BODY MAIN */
 body {
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
-    padding: 1.5rem;
     font-family: 'DM Sans', sans-serif;
 }
 
