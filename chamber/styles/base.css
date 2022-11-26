@@ -63,6 +63,7 @@ h2 {
 .navbar {
     background: #2a4d6e;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
