@@ -59,6 +59,20 @@
 
   }
 
+  .mainFormArea{
+    display: grid;
+  }
+  .mainForm {
+    /* grid-area: .mainform; */
+    display: inherit;
+    grid-column: 1/2;
+  }
+  .member_descriptions {
+    /* grid-area: .member_descriptions; */
+    display: inherit;
+    grid-column: 2/3;
+  }
+
   figure {
     text-align: center;
   }

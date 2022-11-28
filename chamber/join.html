@@ -21,6 +21,19 @@
         <link rel="stylesheet" href="styles/large.css">
         <title>Join Kaysville City</title>
     </head>
+    <style>
+        /* .mainform {
+            grid-area: .mainform;
+            display: grid;
+            grid-column: 1/2;
+        }
+
+        .member_descriptions {
+            grid-area: .member_descriptions;
+            display: inherit;
+            grid-column: 2/3;
+        } */
+    </style>
 </head>
 
 <body>
@@ -53,65 +66,88 @@
         </nav>
         <div class="currentDate"><span id="yearNow"></span> </div>
     </header>
+    <main class="mainFormArea" >
+        <section class="mainForm firstForm">
+            <form action="thankyou.html">
+                <label for="fname">First name: </label>
+                <input type="text" id="fname" class="required" name="fname" placeholder="firstname" required>
 
-    <section class="mainForm firstForm">
-        <form action="thankyou.html">
-            <label for="fname">First name: </label>
-            <input type="text" id="fname" class="required" name="fname" placeholder="firstname" required>
+                <label for="lname">Last name: </label>
+                <input type="text" name="lname" id="lname" class="required" placeholder="lastname" required>
 
-            <label for="lname">Last name: </label>
-            <input type="text" name="lname" id="lname" class="required" placeholder="lastname" required>
+                <label for="bposition">Business position "please type in a minimum of 7 alpha characters " </label>
+                <input type="text" name="bposition" id="bposition" placeholder="business position"
+                    pattern="[- a-zA-Z]{7,}">
 
-            <label for="bposition">Business position "please type in a minimum of 7 alpha characters " </label>
-            <input type="text" name="bposition" id="bposition" placeholder="business position" pattern="[- a-zA-Z]{7,}">
+                <label for="mail">Email:</label>
+                <input type="email" name="mail" id="email" class="required" placeholder="something@gmail.com" required>
 
-            <label for="mail">Email:</label>
-            <input type="email" name="mail" id="email" class="required" placeholder="something@gmail.com" required>
+                <label for="mphone">Cell phone:</label>
+                <input type="tel" name="mphone" id="mphone" class="required" placeholder="(555)867-5309" required>
 
-            <label for="mphone">Cell phone:</label>
-            <input type="tel" name="mphone" id="mphone" class="required" placeholder="(555)867-5309" required>
+                <label for="busname">Business Title:</label>
+                <input type="text" name="busname" id="busname" class="required" placeholder="business title" required>
 
-            <label for="busname">Business Title:</label>
-            <input type="text" name="busname" id="busname" class="required" placeholder="business title" required>
+                <p>Membership level:</p>
+                <hr>
 
-            <p>Membership level:</p>
-            <hr>
+                <label for="NPMembership" class="memLab">N/A Membership
+                    <input type="radio" id="NPMembership" class="mem" name="radiobutton">
 
-            <label for="NPMembership" class="memLab">N/A Membership
-                <input type="radio" id="NPMembership" class="mem" name="radiobutton">
+                </label>
 
-            </label>
+                <label for="bronzeMem" class="memLab">Bronze Membership
+                    <input type="radio" id="bronzeMem" class="mem" name="radiobutton">
 
-            <label for="bronzeMem" class="memLab">Bronze Membership
-                <input type="radio" id="bronzeMem" class="mem" name="radiobutton">
-
-            </label>
+                </label>
 
 
-            <label for="silverMem" class="memLab">Silver Membership
-                <input type="radio" id="silverMem" class="mem" name="radiobutton">
-            </label>
+                <label for="silverMem" class="memLab">Silver Membership
+                    <input type="radio" id="silverMem" class="mem" name="radiobutton">
+                </label>
 
-            <label for="goldMem" class="memLab">Gold Membership
-                <input type="radio" id="goldMem" class="mem" name="radiobutton">
+                <label for="goldMem" class="memLab">Gold Membership
+                    <input type="radio" id="goldMem" class="mem" name="radiobutton">
 
-            </label>
-            <hr>
+                </label>
+                <hr>
 
-            <label for="textarea">Business Description:
-                <textarea name="description" placeholder="Type here" id="description"></textarea>
-            </label>
+                <label for="textarea">Business Description:
+                    <textarea name="description" placeholder="Type here" id="description"></textarea>
+                </label>
 
-            <input type="hidden" id="hidetime" name="hidetime">
+                <input type="hidden" id="hidetime" name="hidetime">
 
-            <input type="submit" value="Complete form" class="btn">
-        </form>
-    </section>
-
+                <input type="submit" value="Complete form" class="btn">
+            </form>
+        </section>
+        <section class="member_descriptions">
+            <section class="npDescription">
+                <h3>Non Profit Tier: Free</h3>
+                <p>Non profit organizations receive the same benefits as our Bronze tier members!</p>
+            </section>
+            <section class="bronzeDescription">
+                <h3>Bronze Tier: $100/year</h3>
+                <p>Bronze members have access to monthly B2B meetings and trainings!</p>
+            </section>
+            <section class="silverDescription">
+                <h3>Silver Tier: $250/year</h3>
+                <p>Silver members have access to all Bronze tier benefits. In addition, they receive a discount on all
+                    formal events.</p>
+            </section>
+            <section class="goldDescription">
+                <h3>Gold Tier: $500/year</h3>
+                <p>Gold members have access to all Silver tier benefits. In addition, they receive advertising discounts
+                    and
+                    a spotlight on the chamber's homepage.</p>
+            </section>
+        </section>
+    </main>
     <footer>
         <!-- section 1 logo and address info -->
         <div class="logoInfo">
-            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64"> <!-- this is the placeholder logo-->
+            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
+            <!-- this is the placeholder logo-->
             <p>Kaysville City Chamber of Commerce</p>
             <p>23 East Center Street</p>
             <p> Kaysville, UT 84037</p>
