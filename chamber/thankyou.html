@@ -2,32 +2,29 @@
 <html lang="en">
 
 <head>
-
-    <head>
-        <!-- meta tags -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content=" The Kaysville city Chamber of Commerce Join page">
-        <!-- links -->
-        <link rel="shortcut icon" href="../government-favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-        <!-- css stuff -->
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/medium.css">
-        <link rel="stylesheet" href="styles/large.css">
-        <title>Kaysville City Thank you page</title>
-    </head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" The Kaysville city Chamber of Commerce Join page">
+    <!-- links -->
+    <link rel="shortcut icon" href="../government-favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <!-- css stuff -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Kaysville City Thank you page</title>
 </head>
 
 <body>
 
     <header class="mainHeader">
         <div id="banner"></div>
-        <ul class="headItems">
+        <div class="headItems">
             <!-- this is the placeholder logo-->
             <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
             <h1>Kaysville City Chamber of Commerce</h1>
@@ -38,17 +35,16 @@
                 <a href="https://www.linkedin.com/"><img src="images/linkedin_icon.webp" height="46" width="46"
                         alt="link to linkedin website"></a>
             </div>
-        </ul>
+        </div>
         <!-- navigation bar -->
         <nav class="navbar main-navigation">
 
+            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav">
-                <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
-                <li class="nav-item"><a class="active" href="index.html">Home</a></li>
                 <li class="nav-item"><a href="discover.html">Discover</a></li>
                 <li class="nav-item"><a href="directory.html">Directory</a></li>
                 <li class="nav-item"><a href="join.html">Join</a></li>
-                <li class="nav-item"><a href="/index.html">Contact</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
             </ul>
 
         </nav>
@@ -57,13 +53,11 @@
 
     <h1>Thank you for contacting us. </h1>
 
-
-
-
     <footer>
         <!-- section 1 logo and address info -->
         <div class="logoInfo">
-            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64"> <!-- this is the placeholder logo-->
+            <img src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
+            <!-- this is the placeholder logo-->
             <p>Kaysville City Chamber of Commerce</p>
             <p>23 East Center Street</p>
             <p> Kaysville, UT 84037</p>

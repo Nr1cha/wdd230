@@ -8,7 +8,7 @@
     padding: 2rem;
   }
 
-  .socialStuff{
+  .socialStuff {
     display: unset;
   }
 
@@ -52,20 +52,24 @@
     margin-left: auto;
     margin-right: auto;
     filter: blur(0em);
-    transition: filter 1s;;
+    transition: filter 1s;
+    ;
   }
+
   .discover:hover {
     filter: blur(0.2em);
 
   }
 
-  .mainFormArea{
+  .mainFormArea {
     display: grid;
   }
+
   .mainForm {
     display: inherit;
     grid-column: 1/2;
   }
+
   .member_descriptions {
     grid-column: 2/3;
   }
@@ -80,11 +84,17 @@
   }
 
   .spotlight {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 140px;
-    grid-row-start: 3;
+    height: auto;
     grid-column: 1/4;
+  }
+
+  .spot1,
+  .spot2,
+  .spot3 {
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
   }
 
   .join {
@@ -103,3 +113,12 @@
     grid-column: 3/4;
   }
 }
+  .spot1 {
+    height: auto;
+  }
+  .spot2 {
+    height: auto;
+  }
+  .spot3 {
+    height: auto;
+  }
