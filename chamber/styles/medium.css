@@ -69,9 +69,19 @@
   }
   .member_descriptions {
     /* grid-area: .member_descriptions; */
-    display: inherit;
+    /* display: inherit; */
     grid-column: 2/3;
   }
+  body > main > section.member_descriptions > section.npDescription, p:nth-child(1) {
+    /* font-weight: bold; */
+    color: red;
+    padding-top: .5rem;
+    margin: unset;
+  }
+  /* body > main > section.member_descriptions > section.npDescription > p:nth-child(2){
+    color: black;
+    padding-top: unset;
+  } */
 
   figure {
     text-align: center;
