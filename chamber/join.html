@@ -2,38 +2,22 @@
 <html lang="en">
 
 <head>
-
-    <head>
-        <!-- meta tags -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content=" The Kaysville city Chamber of Commerce Join page">
-        <!-- links -->
-        <link rel="shortcut icon" href="../government-favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-        <!-- css stuff -->
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/medium.css">
-        <link rel="stylesheet" href="styles/large.css">
-        <title>Join Kaysville City</title>
-    </head>
-    <style>
-        /* .mainform {
-            grid-area: .mainform;
-            display: grid;
-            grid-column: 1/2;
-        }
-
-        .member_descriptions {
-            grid-area: .member_descriptions;
-            display: inherit;
-            grid-column: 2/3;
-        } */
-    </style>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" The Kaysville city Chamber of Commerce Join page">
+    <!-- links -->
+    <link rel="shortcut icon" href="../government-favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <!-- css stuff -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Join Kaysville City</title>
 </head>
 
 <body>
@@ -66,8 +50,8 @@
         </nav>
         <div class="currentDate"><span id="yearNow"></span> </div>
     </header>
-    <main class="mainFormArea" >
-        <section class="mainForm firstForm">
+    <main class="mainFormArea">
+        <div class="mainForm firstForm">
             <form action="thankyou.html">
                 <label for="fname">First name: </label>
                 <input type="text" id="fname" class="required" name="fname" placeholder="firstname" required>
@@ -79,7 +63,7 @@
                 <input type="text" name="bposition" id="bposition" placeholder="business position"
                     pattern="[- a-zA-Z]{7,}">
 
-                <label for="mail">Email:</label>
+                <label for="email">Email:</label>
                 <input type="email" name="mail" id="email" class="required" placeholder="something@gmail.com" required>
 
                 <label for="mphone">Cell phone:</label>
@@ -113,35 +97,32 @@
                 <hr>
 
                 <label for="textarea">Business Description:
-                    <textarea name="description" placeholder="Type here" id="description"></textarea>
+                    <textarea name="description" placeholder="Type here" id="textarea"></textarea>
                 </label>
 
                 <input type="hidden" id="hidetime" name="hidetime">
 
                 <input type="submit" value="Complete form" class="btn">
             </form>
-        </section>
-        <section class="member_descriptions">
-            <section class="npDescription">
+        </div>
+        <div class="member_descriptions">
+            <div class="npDescription">
                 <p>Non Profit Tier: Free</p>
-                <p>Non profit organizations receive the same benefits as our Bronze tier members!</p>
-            </section>
-            <section class="bronzeDescription">
-                <p>Bronze Tier: $100/year</p>
-                <p>Bronze members have access to monthly B2B meetings and trainings!</p>
-            </section>
-            <section class="silverDescription">
-                <p>Silver Tier: $250/year</p>
-                <p>Silver members have access to all Bronze tier benefits. In addition, they receive a discount on all
-                    formal events.</p>
-            </section>
-            <section class="goldDescription">
-                <p>Gold Tier: $500/year</p>
-                <p>Gold members have access to all Silver tier benefits. In addition, they receive advertising discounts
-                    and
-                    a spotlight on the chamber's homepage.</p>
-            </section>
-        </section>
+                <p>Spotlight on the chamber page.</p>
+            </div>
+            <div class="bronzeDescription">
+                <p>Bronze Tier: $100/month</p>
+                <p>Access to main directory for page.</p>
+            </div>
+            <div class="silverDescription">
+                <p>Silver Tier: $250/month</p>
+                <p>Access to the main directory and also the join page.</p>
+            </div>
+            <div class="goldDescription">
+                <p>Gold Tier: $500/month</p>
+                <p>Access to the entire website pages and features and also analytics with page usage data.</p>
+            </div>
+        </div>
     </main>
     <footer>
         <!-- section 1 logo and address info -->

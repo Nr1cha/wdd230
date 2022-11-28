@@ -280,7 +280,7 @@ textarea {
     padding: unset;
 }
 
-.member_descriptions > section > p:nth-child(1) {
+.member_descriptions > div > p:nth-child(1) {
     text-decoration: underline;
     font-weight: bolder;
     padding-top: .5rem;
