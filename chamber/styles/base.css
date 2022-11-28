@@ -35,7 +35,6 @@ h2 {
 
 .socialStuff {
     display: none;
-    /* display: flex; */
     list-style-type: none;
 
 }
@@ -281,6 +280,12 @@ textarea {
     padding: unset;
 }
 
+.member_descriptions > section > p:nth-child(1) {
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-top: .5rem;
+    margin: unset;
+}
 
 /* END OF JOIN PAGE */
 
