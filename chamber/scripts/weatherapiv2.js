@@ -19,7 +19,7 @@ async function apiFetch() {
 }
 
 function displayResults(weatherdata) {
-    console.log(weatherdata);
+    // console.log(weatherdata);
     const currentTemp = document.querySelector("#current-temp");
     const weatherIcon = document.querySelector("#weather-icon");
     const captionDesc = document.querySelector("figcaption");

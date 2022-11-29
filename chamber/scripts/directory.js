@@ -9,7 +9,7 @@ async function getCompanyData(){
     const jsonObject = await response.json();
     const companys = jsonObject['companies'];
     // temporary checking for valid response and data parsing
-    console.table(jsonObject);
+    // console.table(jsonObject);
     companys.forEach(displayBusinesses);
 }
 
