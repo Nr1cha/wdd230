@@ -1,0 +1,51 @@
+/* HEADER */
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 1.5rem;
+    padding-bottom: 0;
+    color: white;
+}
+.mainHeader{
+    background-color: rgb(77, 83, 76);
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+/* -- */
+
+/* NAV */
+.hamburger{
+    font-size: 2rem;
+    color: white;
+
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.navbar{
+    text-align: center;
+}
+#primaryNav {
+    padding: unset;
+}
+.nav-item{
+    display: none;
+    text-align: center;
+    list-style: none;
+}
+.show li {
+    padding: 0.5rem;
+    display: block;
+}
+/* - - */
+
+
+/* BODY */
+body {
+    max-width: 100%;
+    margin: auto;
+}
+/* FOOTER */
