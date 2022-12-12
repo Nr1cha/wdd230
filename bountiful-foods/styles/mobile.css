@@ -1,55 +1,66 @@
 /* HEADER */
-.headImg{
+.headImg {
     display: none;
 }
-h1{
+
+h1 {
     text-align: center;
     margin: 0;
     padding: 1.5rem;
     padding-bottom: 0;
     color: white;
 }
-.mainHeader{
+
+.mainHeader {
     background-color: rgb(77, 83, 76);
     display: flex;
     flex-direction: column;
     list-style: none;
     padding: 0;
 }
+
 .socialStuff {
     display: none;
 }
+
 /* -- */
 
 /* NAV */
-.hamburger{
+.hamburger {
     font-size: 2rem;
     color: white;
 
 }
+
 button {
     background-color: transparent;
     border: none;
 }
-.navbar{
+
+.navbar {
     text-align: center;
 }
+
 #primaryNav {
     padding: unset;
 }
-.nav-item{
+
+.nav-item {
     display: none;
     text-align: center;
     list-style: none;
 }
+
 .nav-item a {
     text-decoration: none;
     color: white;
 }
+
 .show li {
     padding: 0.5rem;
     display: block;
 }
+
 /* - - */
 
 
@@ -59,25 +70,45 @@ body {
     margin: auto;
 }
 
-input{
+input {
     display: block;
 }
+
+.summaryCalif {
+    text-align: left;
+    max-width: 95%;
+    margin: auto;
+}
+
+/* CHANGE THIS MAP IN LARGER SIZES */
+/* width="600" height="450" */
+.sanMap {
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 5px 0px 0px 10px;
+}
+
 /* - - */
 
 
 /* FOOTER */
-footer{
+footer {
     background-color: rgb(0, 74, 0);
     color: white;
     text-align: center;
 }
-.footImg{
+
+.footImg {
     display: none;
 }
-body > footer > div.logoInfo > p:nth-child(1){
+
+body>footer>div.logoInfo>p:nth-child(1) {
     margin-top: 0;
 }
-.logoInfo{
+
+.logoInfo {
     padding: 1rem;
 }
+
 /* - - */
