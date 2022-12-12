@@ -89,6 +89,12 @@ input {
     margin: 5px 0px 0px 10px;
 }
 
+.pic1 > img, .pic2 > img, .pic3 > img{
+    /* overflow: hidden; */
+    height: 100%;
+    width: 100%;
+}
+
 /* - - */
 
 
