@@ -91,6 +91,23 @@ input {
     height: auto;
     margin: auto;
 }
+.freshAd {
+    position: relative;
+}
+.freshAd > button {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 1.3rem;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 .freshAd > p {
     font-size: 2rem;
 }
