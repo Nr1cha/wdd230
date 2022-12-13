@@ -1,6 +1,6 @@
 // select HTML elements in the document
 const url =
-    "https://api.openweathermap.org/data/2.5/weather?lat=41.034878&lon=-111.938644&units=imperial&appid=b0b41ac10094817e9cec6c0486ebf081";
+    "https://api.openweathermap.org/data/2.5/weather?lat=41.034878&lon=-111.938644&units=imperial&appid=940263958285631fc3383425f7a3cd60";
 const page = document.querySelector(".content");
 
 async function apiFetch() {
@@ -9,6 +9,7 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json();
             // console.log(data);
+            console.table(data);
             return data; //added this here.
         } else {
             throw Error(await response.text());
