@@ -1,5 +1,5 @@
 const now = new Date();
-const weekday = [
+const dayofweek = [
     "Sunday",
     "Monday",
     "Tuesday",
@@ -9,7 +9,8 @@ const weekday = [
     "Saturday",
 ];
 const d = new Date();
-let day = weekday[d.getDay()];
+let day = dayofweek[d.getDay()];
+// console.log(day);
 
 //Day Logic
 // if (day === "Monday" || day === "Tuesday") {

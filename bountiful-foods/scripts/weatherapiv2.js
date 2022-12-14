@@ -25,23 +25,39 @@ function displayResults(weatherdata) {
     const humidity = document.createElement("p");
     const temp = document.createElement("p");
     const conditionDesc = document.createElement("p");
+    let currentDay = document.createElement("p");
+
 
     // adding data from the API to the new elements
     // temp
     const currentTempFixed = weatherdata.temp.day.toFixed(0);
     temp.textContent = `temperature: ${currentTempFixed}`;
 
+    // getting day logic set up
+    let dateNow = new Date(0); // The 0 there is the key, which sets the date to the epoch
+    dateNow.setUTCSeconds(weatherdata.dt);
+    let formattedDate = dateNow.toDateString(); //convert to something nice for the user to read
+    // console.log(formattedDate);
+
+
+    // adding day info to the p tag
+    currentDay.textContent = `${dateNow}`; 
+
     // humidity
     const humid = weatherdata.humidity.toFixed(0);
     humidity.textContent = `humidity: ${humid}`;
+
 
     // condition desc
     const cond = weatherdata.weather[0].description;
     conditionDesc.textContent = `condition description: ${cond}`;
 
+
+
     // adding it to the page
     newDiv.classList.add("weather");
-    newDiv.append(temp,humidity,conditionDesc);
+    newDiv.classList.add("day");
+    newDiv.append(formattedDate,temp,humidity,conditionDesc);
     document.querySelector("main").appendChild(newDiv);
 
 }
