@@ -9,7 +9,7 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json();
             console.log(data);
-            console.table(data);
+            // console.table(data);
             return data; //added this here.
         } else {
             throw Error(await response.text());
@@ -55,4 +55,3 @@ data.daily.slice(0,3).forEach((day) => {
 })
 }
 init();
-
