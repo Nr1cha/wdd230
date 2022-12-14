@@ -1,6 +1,6 @@
 // select HTML elements in the document
 const url =
-    "https://api.openweathermap.org/data/2.5/weather?lat=41.034878&lon=-111.938644&units=imperial&appid=940263958285631fc3383425f7a3cd60";
+    "https://api.openweathermap.org/data/3.0/onecall?lat=41.034878&lon=-111.938644&units=imperial&appid=940263958285631fc3383425f7a3cd60";
 const page = document.querySelector(".content");
 
 async function apiFetch() {
@@ -20,33 +20,39 @@ async function apiFetch() {
 }
 
 function displayResults(weatherdata) {
-    const currentTemp = document.querySelector("#current-temp");
-    const weatherIcon = document.querySelector("#weather-icon");
-    const captionDesc = document.querySelector("figcaption");
-    const windSpeed = document.querySelector("#wind-speed");
+    // creating new elements
+    const newDiv = document.createElement("div");
+    const humidity = document.createElement("p");
+    const temp = document.createElement("p");
+    const conditionDesc = document.createElement("p");
 
-    // adding data from the API to the page
-    const currentTempFixed = weatherdata.main.temp.toFixed(0);
-    currentTemp.textContent = currentTempFixed;
+    // adding data from the API to the new elements
+    // temp
+    const currentTempFixed = weatherdata.temp.day.toFixed(0);
+    temp.textContent = `temperature: ${currentTempFixed}`;
 
-    const windSpeedFixed = weatherdata.wind.speed.toFixed(0);
-    windSpeed.textContent = windSpeedFixed;
-    windChill(weatherdata.wind.speed, weatherdata.main.temp);
+    // humidity
+    const humid = weatherdata.humidity.toFixed(0);
+    humidity.textContent = `humidity: ${humid}`;
 
-    weatherIcon.src = `https://openweathermap.org/img/wn/${weatherdata.weather[0].icon}@2x.png`;
-    captionDesc.textContent = weatherdata.weather[0].description;
+    // condition desc
+    const cond = weatherdata.weather[0].description;
+    conditionDesc.textContent = `condition description: ${cond}`;
+
+    // adding it to the page
+    newDiv.classList.add("weather");
+    newDiv.append(temp,humidity,conditionDesc);
+    document.querySelector("main").appendChild(newDiv);
+
 }
-
-// section to loop through my HTML for 3 day weather
-// Array.forEach(day) => {
-//     console.log("working");
-// };
-
 
 
 async function init() {
     const data = await apiFetch();
-    displayResults(data);
+// beginning of loop
+data.daily.slice(0,3).forEach((day) => {
+    displayResults(day);
+})
 }
 init();
 
