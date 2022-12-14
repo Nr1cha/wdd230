@@ -23,9 +23,9 @@ let day = weekday[d.getDay()];
 // Date Modified stuff
 const currentYear = 2022;
 const lastModified = document.lastModified;
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-    dateStyle: "full",
-}).format(now);
+// const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+//     dateStyle: "full",
+// }).format(now);
 // const datefieldUK = document.querySelector("#yearNow");
 
 // document.querySelector("#yearNow").textContent = fulldateUK;

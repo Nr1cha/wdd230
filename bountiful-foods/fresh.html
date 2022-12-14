@@ -37,47 +37,47 @@
         </nav>
         <div class="currentDate"><span id="yearNow"></span> </div>
     </header>
-<!-- FORM -->
-<div class="mainForm firstForm">
-    <form action="thankyou.html">
-        <label for="fname">First name: </label>
-        <input type="text" id="fname" class="required" name="fname" placeholder="firstname" required>
+    <!-- FORM -->
+    <div class="mainForm firstForm">
+        <form action="thankyou.html">
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" class="required" name="fname" placeholder="firstname" required>
 
-        <label for="email">Email:</label>
-        <input type="email" name="mail" id="email" class="required" placeholder="something@gmail.com" required>
+            <label for="email">Email:</label>
+            <input type="email" name="mail" id="email" class="required" placeholder="something@gmail.com" required>
 
-        <label for="mphone">Cell phone:</label>
-        <input type="tel" name="mphone" id="mphone" class="required" placeholder="(555)867-5309" required>
+            <label for="mphone">Cell phone:</label>
+            <input type="tel" name="mphone" id="mphone" class="required" placeholder="(555)867-5309" required>
 
-        <p>Specialty Drink:</p>
-        <hr>
+            <p>Specialty Drink:</p>
+            <hr>
 
-        <label for="drink_1" class="memLab">Drink 1
-            <input type="radio" id="drink_1" class="drink" name="radiobutton">
+            <label for="drink_1" class="memLab">Fruit 1
+                <select name="fruit1" id="fruit1">
+                    <option value=""></option>
+                </select>
 
-        </label>
+            <label for="drink_1" class="memLab">Fruit 2
+                <select name="fruit2" id="fruit2">
+                    <option value=""></option>
+                </select>
 
-        <label for="drink_2" class="memLab">Drink 2
-            <input type="radio" id="drink_2" class="drink" name="radiobutton">
+            <label for="drink_1" class="memLab">Fruit 3
+                <select name="fruit3" id="fruit3">
+                    <option value=""></option>
+                </select>
 
-        </label>
+            <hr>
+
+            <label for="textarea">Special Instructions:
+                <textarea name="description" placeholder="Type here" id="textarea"></textarea>
+            </label>
 
 
-        <label for="drink_3" class="memLab">Drink 3
-            <input type="radio" id="drink_3" class="drink" name="radiobutton">
-        </label>
 
-        <hr>
-
-        <label for="textarea">Business Description:
-            <textarea name="description" placeholder="Type here" id="textarea"></textarea>
-        </label>
-
-        <input type="hidden" id="hidetime" name="hidetime">
-
-        <input type="submit" value="Complete form" class="btn">
-    </form>
-</div>
+                        <input type="submit" value="Complete form" class="btn">
+        </form>
+    </div>
 
     <!-- footer section -->
     <footer>
@@ -106,6 +106,7 @@
         </div>
         <script src="scripts/script.js"></script>
         <script src="scripts/menu.js"></script>
+        <script src="scripts/fruitData.js"></script>
 
     </footer>
 </body>
