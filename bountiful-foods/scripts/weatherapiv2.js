@@ -1,6 +1,6 @@
 // select HTML elements in the document
 const url =
-    "https://api.openweathermap.org/data/3.0/onecall?lat=41.034878&lon=-111.938644&units=imperial&appid=940263958285631fc3383425f7a3cd60";
+    "https://api.openweathermap.org/data/3.0/onecall?lat=33.1581&lon=-117.3506&units=imperial&appid=940263958285631fc3383425f7a3cd60";
 const page = document.querySelector(".content");
 
 async function apiFetch() {
