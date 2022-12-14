@@ -6,7 +6,7 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json();
             console.log(data);
-            console.table(data);
+            // console.table(data);
             return data;
         } else {
             throw Error(await response.text());

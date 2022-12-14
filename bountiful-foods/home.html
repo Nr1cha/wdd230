@@ -64,7 +64,7 @@
                 <source media="(min-width: 2560px)" srcset="images/San-Diego-Symphony-LARGE.webp "> <!-- large display-->
                 <source media="(min-width: 1440px)" srcset="images/San-Diego-Symphony-LAPTOP.webp "> <!-- laptop laptop-->
                 <source media="(min-width: 768px)" srcset="images/San-Diego-Symphony-TABLET.webp "> <!-- tablet screen-->
-                <source media="(min-width: 768px)" srcset="images/downtown-san-diego-bay-MOBILE.webp "> <!-- mobile screen-->
+                <source media="(min-width: 768px)" srcset="images/San-Diego-Symphony-MOBILE.webp "> <!-- mobile screen-->
                 <img src="images/San-Diego-Symphony-MOBILE.webp" alt="picture of outdoor theater at night" height="283" width="425"> <!-- mobile display size-->
             </picture>
         </div>
@@ -78,6 +78,9 @@
                 <img src="images/pexels-valeriia-miller-MOBILE.webp" alt="picture of a fruit parfet" height="567" width="425"> <!-- mobile display size-->
             </picture>
             <button id="myBtn">Start Making Shake</button>
+        </div>
+        <div class="orderSum">
+
         </div>
 
     </main>
@@ -112,6 +115,15 @@
         <script src="scripts/weatherapiv2.js" ></script>
         <script src="scripts/script.js"></script>
         <script src="scripts/menu.js"></script>
+        <script src="scripts/localFruitStorage.js"></script>
+        <script src="scripts/userActions.js"></script>
+        <!-- move into file -->
+        <script defer> 
+            const recentPerson = getRecentPerson();
+            if (recentPerson){
+                showOrders(recentPerson);
+            }
+        </script>
     </footer>
 </body>
 
