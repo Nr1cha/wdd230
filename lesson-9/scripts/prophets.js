@@ -10,7 +10,6 @@ async function getProphetData(){
     const jsonObject = await response.json();
     const prophets = jsonObject['prophets'];
     // temporary checking for valid response and data parsing
-    // console.table(jsonObject);
     prophets.forEach(displayProphets);
 }
  
