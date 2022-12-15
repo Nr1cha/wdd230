@@ -1,4 +1,3 @@
-/* HEADER */
 .headImg {
     display: none;
 }
@@ -37,9 +36,6 @@ h1 {
     display: none;
 }
 
-/* -- */
-
-/* NAV */
 .hamburger {
     font-size: 2rem;
     color: white;
@@ -53,29 +49,26 @@ button {
     border: none;
 }
 
-/* .navbar {
-    text-align: center;
-} */
 #primaryNav {
     height: 100%;
-    /* 100% Full-height */
+
     width: 0;
-    /* 0 width - change this with JavaScript */
+
     position: fixed;
-    /* Stay in place */
+
     z-index: 1;
-    /* Stay on top */
+
     top: 0;
-    /* Stay at the top */
+
     left: 0;
     background-color: #111;
-    /* Black*/
+
     overflow-x: hidden;
-    /* Disable horizontal scroll */
+
     padding-top: 60px;
-    /* Place content 60px from the top */
+
     transition: 0.5s;
-    /* 0.5 second transition effect to slide in the sidenav */
+
 }
 
 #primaryNav {
@@ -89,8 +82,6 @@ button {
 }
 
 #primaryNav a {
-    /* text-decoration: none; */
-    /* color: white; */
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -117,11 +108,6 @@ main {
     text-align: center;
 }
 
-
-/* - - */
-
-
-/* BODY */
 body {
     max-width: 100%;
     margin: auto;
@@ -142,8 +128,6 @@ input {
     margin: auto;
 }
 
-/* CHANGE THIS MAP IN LARGER SIZES */
-/* width="600" height="450" */
 .sanMap {
     width: inherit;
     height: auto;
@@ -177,7 +161,6 @@ input {
 .pic2>img,
 .pic3>img,
 .pic4>img {
-    /* overflow: hidden; */
     height: 100%;
     width: 100%;
 }
@@ -206,10 +189,12 @@ input {
     height: 100%;
     margin: auto;
 }
+
 .formInput p {
     text-align: center;
     font-size: 1.5rem;
 }
+
 .formInput input {
     width: 95%;
 }
@@ -250,19 +235,15 @@ input {
     border-radius: 2.5rem;
 }
 
-/* - - */
-
-
-/* FOOTER */
 footer {
     background-color: rgb(0, 74, 0);
     color: white;
     text-align: center;
 }
+
 .footInfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-gap: 10px; */
 }
 
 .footImg {
@@ -273,11 +254,10 @@ body>footer>div.logoInfo>p:nth-child(1) {
     margin-top: 0;
 }
 
-.logoInfo, .contactInfo {
+.logoInfo,
+.contactInfo {
     padding: 1rem;
     font-size: .8rem;
     text-align: left;
     margin-left: 2rem;
 }
-
-/* - - */
