@@ -47,6 +47,7 @@
                 climate. Immense Balboa Park is the site of the renowned San Diego Zoo, as well as numerous art galleries, artist
                 studios, museums and gardens. A deep harbor is home to a large active naval fleet, with the USS Midway,
                 an aircraft-carrier-turned-museum, open to the public.</p>
+            <p></p>
             <picture class="pic1">            
                  <source media="(min-width: 2560px)" srcset="images/coronado-bridge-san-diego-califo-LARGE.webp ">
                  <source media="(min-width: 1440px)" srcset="images/coronado-bridge-san-diego-califo-LAPTOP.webp ">
@@ -54,20 +55,22 @@
                  <source media="(min-width: 425px)"  srcset="images/coronado-bridge-san-diego-califo-MOBILE.webp ">
                  <img src="images/coronado-bridge-san-diego-califo-MOBILE.webp" alt="picture of bridge over water" height="283" width="425" loading="lazy">
             </picture>
-            <picture class="pic2">
-                <source media="(min-width: 2560px)" srcset="images/downtown-san-diego-bay-LARGE.webp "> <!-- large display-->
-                <source media="(min-width: 1440px)" srcset="images/downtown-san-diego-bay-LAPTOP.webp "> <!-- laptop laptop-->
-                <source media="(min-width: 768px)" srcset="images/downtown-san-diego-bay-TABLET.webp "> <!-- tablet screen-->
-                <source media="(min-width: 768px)" srcset="images/downtown-san-diego-bay-MOBILE.webp "> <!-- mobile screen-->
-                <img src="images/downtown-san-diego-bay-MOBILE.webp" alt="picture of a ship harbor during the day" height="283" width="425">
-            </picture>
-            <picture class="pic3">
-                <source media="(min-width: 2560px)" srcset="images/San-Diego-Symphony-LARGE.webp "> <!-- large display-->
-                <source media="(min-width: 1440px)" srcset="images/San-Diego-Symphony-LAPTOP.webp "> <!-- laptop laptop-->
-                <source media="(min-width: 768px)" srcset="images/San-Diego-Symphony-TABLET.webp "> <!-- tablet screen-->
-                <source media="(min-width: 768px)" srcset="images/San-Diego-Symphony-MOBILE.webp "> <!-- mobile screen-->
-                <img src="images/San-Diego-Symphony-MOBILE.webp" alt="picture of outdoor theater at night" height="283" width="425"> <!-- mobile display size-->
-            </picture>
+            <div class="grid-container">
+                <picture class="pic2">
+                    <source media="(min-width: 2560px)" srcset="images/downtown-san-diego-bay-LARGE.webp "> <!-- large display-->
+                    <source media="(min-width: 1440px)" srcset="images/downtown-san-diego-bay-LAPTOP.webp "> <!-- laptop laptop-->
+                    <source media="(min-width: 768px)" srcset="images/downtown-san-diego-bay-TABLET.webp "> <!-- tablet screen-->
+                    <source media="(min-width: 768px)" srcset="images/downtown-san-diego-bay-MOBILE.webp "> <!-- mobile screen-->
+                    <img src="images/downtown-san-diego-bay-MOBILE.webp" alt="picture of a ship harbor during the day" height="283" width="425">
+                </picture>
+                <picture class="pic3">
+                    <source media="(min-width: 2560px)" srcset="images/San-Diego-Symphony-LARGE.webp "> <!-- large display-->
+                    <source media="(min-width: 1440px)" srcset="images/San-Diego-Symphony-LAPTOP.webp "> <!-- laptop laptop-->
+                    <source media="(min-width: 768px)" srcset="images/San-Diego-Symphony-TABLET.webp "> <!-- tablet screen-->
+                    <source media="(min-width: 768px)" srcset="images/San-Diego-Symphony-MOBILE.webp "> <!-- mobile screen-->
+                    <img src="images/San-Diego-Symphony-MOBILE.webp" alt="picture of outdoor theater at night" height="283" width="425"> <!-- mobile display size-->
+                </picture>
+        </div>
         </div>
         <div class="freshAd">
             <p>Want to try a local fruit smoothie?</p>
@@ -119,13 +122,7 @@
         <script src="scripts/localFruitStorage.js"></script>
         <script src="scripts/userActions.js"></script>
         <script src="scripts/navBar.js"></script>
-        <!-- move into file -->
-        <script defer> 
-            const recentPerson = getRecentPerson();
-            if (recentPerson){
-                showOrders(recentPerson);
-            }
-        </script>
+        <script src="scripts/homePageOrder.js" defer></script>
     </footer>
 </body>
 

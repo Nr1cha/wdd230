@@ -38,10 +38,12 @@ function showOrders({name,email,phone}){
     let newHTML = "";
     orders.forEach((orderItem)=>{
         const {fruit1,fruit2,fruit3,userText,orderTime} = orderItem;
-        const formattedOrderTime = new Date(orderTime).toString();
+        const formattedOrderTime = new Date(orderTime);
+        let newFormatOrderTime = formattedOrderTime.toLocaleTimeString();
+        console.log(newFormatOrderTime);
         newHTML+=` 
-            <p>time ordered: ${formattedOrderTime}</p>
-            <p>fruits ordered: ${fruit1}, ${fruit2}, ${fruit3}. </p>
+            <p>Time Ordered: ${newFormatOrderTime}</p>
+            <p>Fruits Ordered: ${fruit1}, ${fruit2}, ${fruit3}. </p>
         `
         if (userText)
         {

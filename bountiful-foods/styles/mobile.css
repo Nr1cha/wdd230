@@ -85,6 +85,11 @@ main {
     display: block;
 }
 
+.weather p:nth-child(1) {
+    text-align: center;
+}
+
+
 /* - - */
 
 
@@ -142,6 +147,28 @@ input {
     width: 100%;
 }
 
+.orderSum {
+    background-color: papayawhip;
+    max-width: 95%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 4px #2f2f2f;
+
+}
+
+.weather {
+    background-color: lightskyblue;
+    margin: 1rem auto 1rem;
+    /* margin-bottom: 10px; */
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 4px #2f2f2f;
+}
+
+.pic4 > img {
+    border-radius: 2.5rem;
+}
 /* - - */
 
 

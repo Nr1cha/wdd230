@@ -1,14 +1,27 @@
 @media screen and (min-width: 769px) {
 
-.weather{
-    margin: auto;
-    width: 75%;
-    padding: 2rem;
-}
-.freshAd > button {
-    top: 25%;
-    font-size: 2rem;
-}
+    .freshAd>button {
+        top: 25%;
+        font-size: 2rem;
+    }
+
+    .weather {
+        /* margin: 1rem auto 1rem; */
+        width: 75%;
+        padding: 2rem;
+    }
+
+    .orderSum {
+        width: 75%;
+        padding: 2rem;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
 
 
 

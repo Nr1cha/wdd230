@@ -37,11 +37,13 @@ function displayResults(weatherdata) {
     let dateNow = new Date(0); // The 0 there is the key, which sets the date to the epoch
     dateNow.setUTCSeconds(weatherdata.dt);
     let formattedDate = dateNow.toDateString(); //convert to something nice for the user to read
+    currentDay.textContent = `${formattedDate}`;
     // console.log(formattedDate);
 
 
     // adding day info to the p tag
-    currentDay.textContent = `${dateNow}`; 
+    // currentDay.textContent = `${dateNow}`; 
+
 
     // humidity
     const humid = weatherdata.humidity.toFixed(0);
@@ -57,7 +59,7 @@ function displayResults(weatherdata) {
     // adding it to the page
     newDiv.classList.add("weather");
     // newDiv.classList.add("day");
-    newDiv.append(formattedDate,temp,humidity,conditionDesc);
+    newDiv.append(currentDay,temp,humidity,conditionDesc);
     document.querySelector("main").appendChild(newDiv);
 
 }
