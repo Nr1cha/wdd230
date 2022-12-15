@@ -15,11 +15,13 @@
 <body>
     <header class="mainHeader">
         <div id="banner"></div>
-        <div class="headItems">
+        <div class="heading">
             <!-- this is the placeholder logo-->
-            <img class="headImg" src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
-            <h1>Fresh</h1>
-            <button onclick="openNav()">&#9776;</button>
+            <img class="headImg" src="images/california.webp" alt="image of a state building" height="64" width="64">
+            <div class="headItems">
+                <button onclick="openNav()">&#9776;</button>
+                <h1>Bountiful Foods</h1>
+            </div>
         </div>
         <!-- navigation bar -->
         <nav class="navbar main-navigation">
@@ -46,7 +48,6 @@
 
                 <label for="mphone">Cell phone:</label>
                 <input type="tel" name="mphone" id="mphone" class="required" placeholder="(555)867-5309" required>
-
             </div>
             <hr>
             <div class="fruitSelect">
@@ -73,9 +74,7 @@
             <label class="textArea" for="textarea">Special Instructions:
                 <textarea name="description" placeholder="Type here" id="textarea"></textarea>
             </label>
-
             <input onclick="submitForm()" type="submit" value="Complete form" class="btn">
-
         </form>
         <div class="orderSum">
 
