@@ -5,8 +5,6 @@ async function apiFetch() {
         const response = await fetch(fruitUrl);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
-            // console.table(data);
             return data;
         } else {
             throw Error(await response.text());
@@ -22,7 +20,6 @@ function createOption(fruitData){
     newItem.value = item;
     newItem.append(item);
     return newItem;
-
 }
 
 function displayResults(fruitData) {
@@ -34,7 +31,7 @@ function displayResults(fruitData) {
 async function init() {
     const data = await apiFetch();
     window.fruitData = data;
-    // beginning of loop
+
     data.forEach((item) => {
         displayResults(item);
     })
