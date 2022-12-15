@@ -33,9 +33,10 @@ function displayResults(fruitData) {
 
 async function init() {
     const data = await apiFetch();
-// beginning of loop
-data.forEach((item) => {
-    displayResults(item);
-})
+    window.fruitData = data;
+    // beginning of loop
+    data.forEach((item) => {
+        displayResults(item);
+    })
 }
 init();
