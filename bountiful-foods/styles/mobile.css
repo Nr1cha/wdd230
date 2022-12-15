@@ -3,6 +3,20 @@
     display: none;
 }
 
+.headItems {
+    display: flex;
+    width: 100%;
+}
+
+.headItems h1 {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    margin-right: 1rem;
+    margin: auto;
+    padding-left: 0;
+}
+
 h1 {
     text-align: center;
     margin: 0;
