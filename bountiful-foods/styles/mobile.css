@@ -187,13 +187,24 @@ input {
 
 .formInput {
     padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 95%;
     height: 100%;
     margin: auto;
 }
+.formInput p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.formInput label {
+
+}
+.formInput input {
+    width: 95%;
+}
 
 .mainForm {
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
 }
 
