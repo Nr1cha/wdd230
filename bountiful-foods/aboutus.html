@@ -19,6 +19,7 @@
             <!-- this is the placeholder logo-->
             <img class="headImg" src="images/congress_icon.webp" alt="image of a state building" height="64" width="64">
             <h1>About Us</h1>
+            <button onclick="openNav()">&#9776;</button>
             <div class="socialStuff">
                 <!-- icons -->
                 <a href="https://www.facebook.com/"><img src="images/facebook.png" height="46" width="46"
@@ -29,13 +30,11 @@
         </div>
         <!-- navigation bar -->
         <nav class="navbar main-navigation">
-
-            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav">
-                <li class="nav-item"><a href="home.html">Home</a></li>
-                <li class="nav-item"><a href="fresh.html">Fresh</a></li>
-            </ul>
-
+            <div id="primaryNav">
+                <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="fresh.html">Fresh</a>
+            </div>
         </nav>
         <div class="currentDate"><span id="yearNow"></span> </div>
     </header>
@@ -93,6 +92,7 @@
         </div>
         <script src="scripts/script.js"></script>
         <script src="scripts/menu.js"></script>
+        <script src="scripts/navBar.js"></script>
 
     </footer>
 

@@ -3,5 +3,13 @@
     body {
         max-width: 75%;
     }
+    .weather {
+        position: relative;
+    }
+    .weather img {
+        position: absolute;
+        top: 70px;
+        right: 100px;
+    }
   
 }
