@@ -1,8 +1,11 @@
 /* large - desktop */
 @media screen and (min-width: 1024px) {
     body {
-        max-width: 75%;
+        max-width: 100%;
     }
+    main {
+        max-width: 80%;
+    };
     .weather {
         position: relative;
     }
@@ -10,6 +13,10 @@
         position: absolute;
         top: 70px;
         right: 100px;
+    }
+    .localmap {
+        width: 50%;
+        margin: auto;
     }
   
 }
