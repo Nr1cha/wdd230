@@ -40,8 +40,8 @@ function showOrders({name,email,phone}){
         const {fruit1,fruit2,fruit3,userText,orderTime} = orderItem;
         const formattedOrderTime = new Date(orderTime).toString();
         newHTML+=` 
-            <p>fruits ordered: ${fruit1}, ${fruit2}, ${fruit3}. </p>
             <p>time ordered: ${formattedOrderTime}</p>
+            <p>fruits ordered: ${fruit1}, ${fruit2}, ${fruit3}. </p>
         `
         if (userText)
         {

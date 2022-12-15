@@ -1,0 +1,6 @@
+/* large - desktop */
+@media screen and (min-width: 1024px) {
+    body {
+        max-width: 75%;
+    }
+}

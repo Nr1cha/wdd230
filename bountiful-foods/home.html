@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 
 <body>
@@ -19,6 +20,7 @@
             <!-- this is the placeholder logo-->
             <img class="headImg" src="images/california.webp" alt="image of a state building" height="64" width="64">
             <h1>Bountiful Foods</h1>
+            <button onclick="openNav()">&#9776;</button>
             <div class="socialStuff">
                 <!-- icons -->
                 <a href="https://www.facebook.com/"><img src="images/facebook.webp" height="46" width="46"
@@ -29,13 +31,11 @@
         </div>
         <!-- navigation bar -->
         <nav class="navbar main-navigation">
-
-            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav">
-                <li class="nav-item"><a href="fresh.html">Fresh</a></li>
-                <li class="nav-item"><a href="aboutus.html">About Us</a></li>
-            </ul>
-
+            <div id="primaryNav">
+                <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                <a href="fresh.html">Fresh</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
         </nav>
         <div class="currentDate"><span id="yearNow"></span> </div>
     </header>
@@ -118,6 +118,7 @@
         <script src="scripts/menu.js"></script>
         <script src="scripts/localFruitStorage.js"></script>
         <script src="scripts/userActions.js"></script>
+        <script src="scripts/navBar.js"></script>
         <!-- move into file -->
         <script defer> 
             const recentPerson = getRecentPerson();

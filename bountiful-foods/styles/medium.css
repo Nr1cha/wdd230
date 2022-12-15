@@ -5,7 +5,10 @@
     width: 75%;
     padding: 2rem;
 }
-
+.freshAd > button {
+    top: 25%;
+    font-size: 2rem;
+}
 
 
 
