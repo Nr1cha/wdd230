@@ -17,7 +17,7 @@ function submitForm() {
         saveRecentPerson({name,email,phone});
         clearForm();
     } else {
-        alert("please fill out the whole form noob");
+        alert("please fill out the whole form.");
     }
     return false;
 }
