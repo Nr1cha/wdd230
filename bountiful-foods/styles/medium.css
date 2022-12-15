@@ -33,6 +33,11 @@
         grid-gap: 10px;
     }
 
+    .sanMap {
+        width: 600px; 
+        height: 450px;
+    }
+
 
 
 }
