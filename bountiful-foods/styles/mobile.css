@@ -259,6 +259,11 @@ footer {
     color: white;
     text-align: center;
 }
+.footInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 10px; */
+}
 
 .footImg {
     display: none;
@@ -268,8 +273,11 @@ body>footer>div.logoInfo>p:nth-child(1) {
     margin-top: 0;
 }
 
-.logoInfo {
+.logoInfo, .contactInfo {
     padding: 1rem;
+    font-size: .8rem;
+    text-align: left;
+    margin-left: 2rem;
 }
 
 /* - - */
